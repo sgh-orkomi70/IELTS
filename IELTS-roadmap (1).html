@@ -1,0 +1,1979 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<meta name="theme-color" content="#052e2b">
+<title>مسیر ۳۶ ماهه انگلیسی و آیلتس — نقشه راه</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--card2:#24324d;--line:#334155;--tx:#e2e8f0;--mut:#94a3b8;
+--acc:#2dd4bf;--acc2:#5eead4;--gold:#fbbf24;--green:#34d399;}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Vazirmatn',system-ui,'Segoe UI',Tahoma,sans-serif;
+background:radial-gradient(1100px 460px at 50% -120px,rgba(45,212,191,.09),transparent 62%),var(--bg);
+color:var(--tx);font-size:15px;line-height:1.8;padding-bottom:96px;direction:rtl}
+::selection{background:rgba(45,212,191,.35)}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:#334155;border-radius:6px}
+::-webkit-scrollbar-thumb:hover{background:#475569}
+::-webkit-scrollbar-track{background:var(--bg)}
+.dc::-webkit-scrollbar{width:8px}
+
+/* ═══════════ هدر ثابت ═══════════ */
+.topbar{position:sticky;top:0;z-index:50}
+.deheader{background:linear-gradient(160deg,#052e2b 0%,#0f766e 45%,#166534 100%);
+color:#fff;padding:0;box-shadow:0 4px 20px rgba(0,0,0,.45)}
+.hin{padding:7px 12px 6px;position:relative;overflow:hidden}
+.hin::after{content:'';position:absolute;left:-40px;top:-60px;width:190px;height:190px;
+background:radial-gradient(circle,rgba(255,255,255,.13),transparent 68%);border-radius:50%}
+.hr{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;position:relative;z-index:2}
+.hleft{flex:1 1 auto;min-width:0;overflow:hidden}
+.dnum{font-size:19px;font-weight:800;line-height:1.05;letter-spacing:-.3px}
+.dmeta{margin-top:4px;display:flex;flex-direction:column;align-items:flex-start}
+.cal{display:inline-flex;align-items:center;gap:8px;width:auto;flex:0 0 auto;align-self:flex-start;
+background:rgba(255,255,255,.17);border:1.5px solid rgba(255,255,255,.3);
+border-radius:9px;padding:4px 9px 4px 8px;box-shadow:0 2px 7px rgba(0,0,0,.14)}
+.cal .cd{font-size:20px;font-weight:800;line-height:1;letter-spacing:-.5px;font-variant-numeric:tabular-nums}
+.cal .cx{display:flex;flex-direction:column;line-height:1.25}
+.cal .cm{font-size:12.5px;font-weight:800}
+.cal .cw{font-size:11px;font-weight:800;opacity:.95;background:rgba(255,255,255,.22);
+border-radius:6px;padding:1px 7px;margin-left:6px;letter-spacing:.2px}
+.cal.today .cw{background:rgba(13,59,30,.22)}
+.cal .cy{font-size:10px;opacity:.8;font-weight:700}
+.cal .cg{font-size:9.5px;opacity:.68;font-weight:600;direction:ltr;margin-top:1px;letter-spacing:.2px}
+.cal.today{background:rgba(126,231,150,.22);border-color:rgba(150,240,175,.65);box-shadow:0 2px 10px rgba(60,200,110,.28)}
+.cal .tdb{background:#5FD97E;color:#0d3b1e;font-size:8.5px;font-weight:800;border-radius:5px;
+padding:1px 5px;margin-right:5px;letter-spacing:.2px}
+.syn{display:block;font-size:9.5px;opacity:.62;font-weight:700;text-align:left;min-height:0;
+line-height:1.5;position:relative;z-index:3}
+.syn:empty{display:none}
+.dmeta .l2{display:block;opacity:.85;font-size:11px;margin-top:3px;overflow:hidden;
+text-overflow:ellipsis;white-space:nowrap}
+.picks{flex:0 0 118px;width:118px}
+.picks .pick{display:block;width:100%;margin-bottom:3px}
+.picks .pick:last-child{margin-bottom:0}
+.pick{background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.34);border-radius:9px;
+padding:5px 8px;font-size:12px;font-weight:800;white-space:nowrap;color:#fff;font-family:inherit;
+cursor:pointer;text-align:center;line-height:1.25;transition:.15s}
+.pick:hover{background:rgba(255,255,255,.28)}
+.pick:active{background:rgba(255,255,255,.32);transform:scale(.97)}
+.pick .ar{opacity:.75;font-size:9px;margin-left:4px}
+.pick .pv{font-weight:800}
+.pwrap{display:flex;align-items:center;gap:8px;margin-top:6px;position:relative;z-index:2}
+.prog{flex:1;height:5px;background:rgba(0,0,0,.22);border-radius:3px;overflow:hidden;
+box-shadow:inset 0 1px 2px rgba(0,0,0,.25)}
+.prog i{display:block;height:100%;border-radius:4px;transition:.4s;
+background:linear-gradient(90deg,#5FD97E,#8CEFA2)}
+.ppc{font-size:11.5px;font-weight:800;opacity:.95;min-width:38px;text-align:left;
+font-variant-numeric:tabular-nums}
+
+/* ═══════════ نوار پایین ═══════════ */
+.jump{position:fixed;bottom:0;right:0;left:0;background:#052e2b;color:#fff;
+padding:9px 10px;display:flex;flex-wrap:wrap;gap:7px;align-items:center;z-index:60;
+box-shadow:0 -3px 14px rgba(0,0,0,.45)}
+.jump input{flex:0 1 54px;width:54px;min-width:0;padding:8px 4px;border:none;border-radius:8px;
+font-family:inherit;font-size:14px;text-align:center;font-weight:700;background:#fff;color:#0b1220}
+.jump button{background:#0f766e;color:#fff;border:none;padding:8px 10px;border-radius:8px;
+font-family:inherit;font-size:12.5px;font-weight:800;white-space:nowrap;cursor:pointer;transition:.15s}
+.jump button:hover{filter:brightness(1.15)}
+.jump .today{background:#217346;padding:8px 11px}
+.jump .cog{background:#5B2C6F;padding:8px 10px;font-size:15px}
+.jump .io{background:#0d9488;font-size:12px;padding:8px 9px}
+.jump .io2{background:#b45309;font-size:12px;padding:8px 9px}
+.jump .stat{font-size:11.5px;opacity:.95;white-space:nowrap;margin-right:auto;color:#5eead4}
+
+/* ═══════════ دکمه بازگشت به بالا ═══════════ */
+.totop{position:fixed;bottom:84px;left:14px;z-index:70;width:46px;height:46px;border-radius:50%;
+background:linear-gradient(135deg,#0d9488,#16a34a);color:#fff;border:none;font-size:21px;
+font-weight:800;display:none;align-items:center;justify-content:center;box-shadow:0 5px 16px rgba(0,0,0,.45);
+cursor:pointer;opacity:.97;transition:.2s;padding:0}
+.totop.show{display:flex}
+.totop:active{transform:scale(.92)}
+.totop::before{content:'▲';font-size:15px}
+
+/* ═══════════ سیستم نماها ═══════════ */
+.wrap{max-width:1020px;margin:0 auto;padding:18px 14px 40px}
+.view{display:none}
+.view.active{display:block}
+.btn{display:inline-block;background:linear-gradient(90deg,var(--acc),#16a34a);color:#0b1220;
+font-weight:800;padding:11px 22px;border-radius:999px;text-decoration:none;font-size:15px;
+border:none;cursor:pointer;font-family:inherit}
+.btn.ghost{background:var(--card2);color:var(--acc2);border:1px solid var(--line)}
+.btn:hover{filter:brightness(1.12)}
+.btn.small{padding:7px 14px;font-size:13px}
+
+/* ═══════════ صفحه اصلی ═══════════ */
+.home-hero{background:linear-gradient(135deg,#0d9488,#059669 55%,#15803d);border-radius:20px;
+padding:26px 24px;color:#fff;margin-bottom:22px;box-shadow:0 10px 40px rgba(13,148,136,.25)}
+.home-hero h1{margin:0 0 8px;font-size:24px}
+.home-hero p{margin:4px 0;opacity:.95;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
+.chip{background:rgba(255,255,255,.18);padding:5px 13px;border-radius:999px;font-size:13px;font-weight:600}
+.section-label{color:var(--acc);font-weight:800;font-size:16px;margin:26px 0 12px;display:block}
+.phases-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+/* کارت‌های فاز — دقیقاً مثل کارت‌های فاز فارکس */
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;
+cursor:pointer;transition:.15s;position:relative;display:flex;flex-direction:column;gap:6px}
+.pcard:hover{border-color:var(--acc);transform:translateY(-3px)}
+.pcard.cur{border-color:var(--acc);box-shadow:0 0 0 1px rgba(45,212,191,.35) inset}
+.pcard-title{font-size:17px;font-weight:800;color:var(--gold)}
+.pcard-range{color:var(--mut);font-size:12.5px}
+.pcard .pbar{height:6px;background:#0b1220;border-radius:3px;overflow:hidden;margin-top:2px}
+.pcard .pbar i{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--green));
+border-radius:3px;transition:.4s}
+.pcard-foot{font-size:11px;color:var(--mut);font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.pcard-go{color:var(--acc2);font-weight:800;font-size:13.5px}
+.pcard-ok{color:var(--gold);font-weight:800}
+.pcard-cur{color:var(--acc2);font-weight:800}
+.pcard.done{border-color:rgba(245,158,11,.6);background:linear-gradient(180deg,rgba(251,191,36,.15),rgba(180,83,9,.05));
+box-shadow:0 0 0 1.5px #d97706 inset}
+.pcard.done::after{content:'✓';position:absolute;top:10px;left:12px;background:var(--gold);color:#4d2d00;
+border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;
+font-weight:800;font-size:13px}
+.pcard.done .pcard-title{color:var(--gold)}
+.pcard.done .pbar i{background:linear-gradient(90deg,var(--gold),#f59e0b)}
+.pcard.done .pcard-go{color:var(--gold)}
+.home-menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:6px}
+.mcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;
+cursor:pointer;transition:.15s}
+.mcard:hover{border-color:var(--acc);transform:translateY(-3px)}
+.mcard .mc-icon{font-size:30px}
+.mcard .mc-title{font-size:16.5px;font-weight:800;color:#fff;margin:8px 0 4px}
+.mcard .mc-desc{color:var(--mut);font-size:12.5px}
+/* ظرف صفحات منابع و راهنماها (مثل month-pane فارکس) */
+.month-pane{background:var(--card);border:1px solid var(--line);border-radius:14px;
+padding:16px 18px;margin-bottom:16px}
+.month-pane h1{font-size:19px;color:#fff;margin:6px 0 12px;padding-bottom:8px;
+border-bottom:2px solid var(--acc)}
+
+
+/* ═══════════ نمای فاز ═══════════ */
+.phase-top{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 24px;
+margin-bottom:16px;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.phase-title{font-size:21px;font-weight:800;color:#fff;flex:1;min-width:200px}
+.phase-range{color:var(--mut);font-size:13px;width:100%}
+.monthbar{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 18px;
+margin-bottom:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.monthbar-tip{color:var(--mut);font-size:13px;flex:1;min-width:180px}
+.phase-intro{color:var(--mut)}
+.phase-intro .doc-title{font-size:20px;color:#fff;margin:10px 0 14px;padding-bottom:10px;
+border-bottom:2px solid var(--acc)}
+.phase-intro p{margin:6px 0}
+.phase-intro strong{color:#fff}
+.phase-intro hr{border:none;border-top:1px dashed var(--line);margin:16px 0}
+.phase-bottom{display:flex;gap:10px;margin-top:6px}
+
+/* ═══════════ آکاردئون ماه‌ها ═══════════ */
+.accordion{background:var(--card);border:1px solid var(--line);border-radius:14px;
+margin-bottom:14px;overflow:hidden}
+.acc-head{width:100%;background:var(--card2);color:#fff;border:none;padding:14px 18px;
+font-size:16px;font-weight:800;font-family:inherit;cursor:pointer;text-align:right;
+display:flex;align-items:center;gap:12px}
+.acc-head:hover{background:#334155}
+.acc-arrow{color:var(--acc2);transition:transform .2s}
+.acc-label{flex:1;color:var(--gold)}
+.acc-state{font-size:12px;background:#0b1220;color:var(--mut);padding:3px 12px;border-radius:999px}
+.accordion .acc-body{display:none;padding:14px 18px}
+.accordion.open .acc-body{display:block}
+.accordion.open .acc-arrow{transform:rotate(90deg)}
+.accordion.open .acc-state{color:var(--green)}
+
+/* محتوای ماه: هفته‌ها و روزها */
+.acc-body h2{color:var(--acc);font-size:17px;margin:22px 0 10px;padding:9px 13px;
+border-top:1px solid var(--line);border-right:4px solid var(--acc);background:var(--card2);
+border-radius:8px;font-weight:800}
+.acc-body h2:first-child{margin-top:4px}
+.acc-body h3{color:var(--green);font-size:14px;margin:14px 0 6px;background:var(--card2);
+padding:8px 13px;border-radius:8px;border-right:4px solid var(--acc)}
+.acc-body h3.daypart{background:rgba(251,191,36,.22);color:#fcd34d;border-right-color:#d97706}
+.acc-body h3.daydone{background:linear-gradient(90deg,#fbbf24,#f59e0b);color:#4d2d00;
+border-right-color:#b45309;box-shadow:0 0 0 1.5px #d97706 inset}
+.acc-body h3.daydone::after{content:' ✓ کامل';font-size:.8em;font-weight:800}
+.acc-body h2.weekdone{background:linear-gradient(90deg,#fbbf24,#f59e0b);color:#4d2d00;
+border-right:4px solid #b45309;box-shadow:0 0 0 1.5px #d97706 inset}
+.acc-body h2.weekdone::after{content:' ✓ کامل';font-size:.8em;font-weight:800}
+.accordion.monthdone .acc-head{background:linear-gradient(90deg,#fbbf24,#f59e0b);color:#4d2d00}
+.accordion.monthdone .acc-label{color:#4d2d00}
+.accordion.monthdone .acc-label::after{content:' ✓';font-weight:800}
+.accordion.monthdone .acc-arrow{color:#4d2d00}
+.accordion.monthdone .acc-state{background:#b45309;color:#fff}
+
+/* بنرهای روز */
+.banner{border-radius:14px;padding:13px 16px;margin:10px 0;font-weight:800;font-size:14.5px;
+line-height:1.7;border-width:2px;border-style:solid}
+.banner .bsub{display:block;font-weight:500;font-size:12.5px;opacity:.9;margin-top:2px}
+.off{background:linear-gradient(135deg,rgba(239,68,68,.16),rgba(153,27,27,.12));
+border-color:rgba(239,68,68,.6);color:#fca5a5}
+.rev{background:linear-gradient(135deg,rgba(245,158,11,.16),rgba(146,64,14,.12));
+border-color:rgba(245,158,11,.55);color:#fcd34d}
+.mile{background:linear-gradient(135deg,rgba(34,197,94,.16),rgba(20,83,45,.12));
+border-color:rgba(34,197,94,.55);color:#86efac}
+
+/* جدول وظایف روز */
+.acc-body table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:12.5px;
+display:block;overflow-x:auto;background:var(--card)}
+.acc-body th,.acc-body td{border:1px solid var(--line);padding:7px 9px;text-align:right;vertical-align:top}
+.acc-body th{background:#0b1220;color:var(--acc2);font-weight:700;white-space:nowrap}
+.acc-body tr:nth-child(even) td{background:#16213a}
+.acc-body .tdchk{width:30px;text-align:center;vertical-align:middle;border-left:1px solid var(--line)!important}
+.acc-body .tk{display:inline-flex;width:20px;height:20px;border:2px solid var(--line);border-radius:6px;
+align-items:center;justify-content:center;color:transparent;font-size:12px;font-weight:800;
+background:#0b1220;transition:.15s;flex:0 0 auto}
+.acc-body tr[data-k]{cursor:pointer}
+.acc-body tr[data-k]:hover td{background:#1b2c4e!important}
+.acc-body tr.done td{opacity:.55}
+.acc-body tr.done .tk{background:var(--green);border-color:var(--green);color:#06281a}
+.acc-body tr.done td:first-child{opacity:1}
+.acc-body blockquote{background:var(--card2);border-right:4px solid var(--gold);padding:10px 16px;
+border-radius:8px;margin:10px 0;color:var(--mut)}
+.acc-body blockquote strong{color:#fcd34d}
+
+/* ═══════════ دیالوگ‌ها ═══════════ */
+dialog{border:none;border-radius:18px;padding:0;max-width:94vw;width:400px;background:var(--card);
+color:var(--tx);box-shadow:0 10px 44px rgba(0,0,0,.65)}
+dialog::backdrop{background:rgba(2,6,16,.72)}
+dialog h3{margin:0;background:linear-gradient(135deg,#0d9488,#16a34a);color:#fff;padding:14px;
+font-size:16.5px;border-radius:18px 18px 0 0}
+.dc{padding:12px;max-height:64vh;overflow:auto}
+dialog button.cl{width:100%;padding:13px;border:none;background:var(--card2);color:#cbd5e1;
+font-family:inherit;font-size:15px;font-weight:800;border-radius:0 0 18px 18px;cursor:pointer}
+dialog button.cl:hover{color:#fff}
+dialog textarea{width:100%;min-height:160px;max-height:40vh;background:#0b1220;color:#a5f3fc;
+border:2px solid var(--line);border-radius:10px;font-family:monospace,monospace;font-size:11px;
+padding:9px;direction:ltr;text-align:left;resize:vertical;margin-bottom:10px;box-sizing:border-box}
+
+.fhead{background:var(--card2);border:2px solid var(--line);border-radius:10px;padding:9px 11px;
+margin-bottom:10px;font-size:12.5px;color:var(--tx);font-weight:800;display:flex;
+justify-content:space-between;align-items:center;gap:8px}
+.fhead .bk{background:var(--acc);color:#0b1220;border:none;border-radius:8px;padding:6px 11px;
+font-family:inherit;font-size:11.5px;font-weight:800;white-space:nowrap;cursor:pointer}
+.prow{display:flex;gap:10px;align-items:center;padding:11px;margin-bottom:8px;border:2px solid var(--line);
+border-radius:11px;cursor:pointer;background:var(--card)}
+.prow:hover{border-color:var(--acc)}
+.prow:active{background:var(--card2)}
+.prow.cur{border-color:var(--green);background:rgba(52,211,153,.1)}
+.pid{flex:0 0 auto;width:42px;height:42px;border-radius:11px;background:var(--acc);color:#0b1220;
+display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+.prow.cur .pid{background:var(--green);color:#052e16}
+.pnm{font-weight:800;font-size:14.5px;color:#fff}
+.psub{font-size:11.5px;color:var(--mut);margin-top:2px}
+.pbar{height:5px;background:#0b1220;border-radius:3px;margin-top:5px;overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--green);border-radius:3px}
+.prow.full{border-color:rgba(245,158,11,.6);background:rgba(251,191,36,.1)}
+.prow.full .pid{background:var(--gold);color:#4d2d00}
+.prow.full .pnm{color:var(--gold)}
+.prow.full .pbar i{background:var(--gold)}
+.prow.cur.full{border-color:rgba(245,158,11,.7);background:rgba(251,191,36,.14)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+.gi{border:2px solid var(--line);border-radius:10px;padding:9px 3px 12px;text-align:center;
+cursor:pointer;background:var(--card);font-family:inherit;position:relative;overflow:hidden;color:var(--tx)}
+.gi:hover{border-color:var(--acc)}
+.gi:active{background:var(--card2)}
+.gi b{display:block;font-size:14px;color:#fff;font-weight:800}
+.gi span{font-size:9.5px;color:var(--mut)}
+.gi small{display:block;font-size:9px;color:var(--mut);margin-top:1px}
+.gi .gb{position:absolute;bottom:0;right:0;left:0;height:3px;background:#0b1220;
+border-radius:0 0 8px 8px;overflow:hidden}
+.gi .gb i{display:block;height:100%;background:var(--gold);border-radius:3px}
+.gi.full{background:rgba(251,191,36,.12);border-color:rgba(245,158,11,.55)}
+.gi.full b{color:var(--gold)}
+.gi.full span,.gi.full small{color:#d9b45c}
+.gi.full::after{content:'✓';position:absolute;top:2px;left:5px;font-size:10px;color:var(--gold);font-weight:800}
+.gi.full .gb i{background:var(--gold)}
+.gi.cur{border-color:var(--green);background:rgba(52,211,153,.1)}
+.gi.cur b{color:var(--green)}
+.gi.cur small{color:var(--acc2)}
+.gi.cur.full{border-color:rgba(245,158,11,.7);background:rgba(251,191,36,.15)}
+.gi.cur.full b{color:var(--gold)}
+.fall{background:var(--card2);border:2px dashed #64748b;color:var(--acc2);border-radius:9px;padding:9px;
+width:100%;font-family:inherit;font-size:12.5px;font-weight:800;margin-bottom:10px;cursor:pointer}
+
+.fld{margin-bottom:14px}
+.fld label{display:block;font-size:13px;font-weight:800;color:var(--acc2);margin-bottom:6px}
+.fld input,.fld select{width:100%;padding:11px;border:2px solid var(--line);border-radius:10px;
+font-family:inherit;font-size:15px;text-align:center;font-weight:700;background:#0b1220;color:var(--tx)}
+.dsp{display:flex;gap:6px}
+.dsp select{flex:1}
+.bsave{width:100%;padding:13px;border:none;background:#217346;color:#fff;border-radius:11px;
+font-family:inherit;font-size:15.5px;font-weight:800;margin-top:4px;cursor:pointer;transition:.15s}
+.bsave:hover{filter:brightness(1.12)}
+.note{background:rgba(251,191,36,.12);border-right:4px solid var(--gold);padding:9px 11px;
+border-radius:8px;font-size:12.5px;color:#fcd34d;margin-bottom:12px;line-height:1.7}
+.mrow{display:flex;justify-content:space-between;padding:9px 4px;border-bottom:1px solid var(--line);
+font-size:13px;cursor:pointer}
+.mrow:hover{background:var(--card2)}
+.mrow b{color:var(--acc2);white-space:nowrap}
+.mrow span{color:var(--tx)}
+
+/* ═══════════ منابع در یک نگاه ═══════════ */
+.sec{margin-bottom:16px}
+.sech{background:rgba(45,212,191,.12);color:var(--acc2);border:1.5px solid rgba(45,212,191,.35);
+border-radius:10px;padding:9px 12px;font-size:14px;font-weight:800;margin-bottom:9px}
+.rc{border:2px solid var(--line);border-radius:11px;padding:11px;margin-bottom:8px;background:var(--card)}
+.rc .rt{font-weight:800;font-size:14.5px;color:#fff}
+.rc .rs{font-size:12px;color:var(--mut);margin-top:3px;line-height:1.75}
+.rc .rw{display:inline-block;background:rgba(52,211,153,.14);color:#6ee7b7;
+border:1px solid rgba(52,211,153,.5);border-radius:7px;padding:2px 8px;font-size:11px;
+font-weight:800;margin-top:6px}
+.rc.store{background:var(--card2);border-style:dashed;opacity:.8}
+.rc.store .rt{color:var(--mut)}
+
+/* ═══════════ راهنماهای Anki / شدوئینگ / نکات ═══════════ */
+.card2{background:rgba(251,191,36,.1);border:2px solid rgba(245,158,11,.5);border-radius:10px;
+padding:11px;font-size:12.5px;line-height:1.85;color:#fde68a;margin-bottom:9px}
+.card2 b{color:var(--gold)}
+.atab{display:flex;gap:5px;overflow-x:auto;padding:3px 0 9px;scrollbar-width:none}
+.atab::-webkit-scrollbar{display:none}
+.atab button{flex:0 0 auto;border:1px solid var(--line);background:var(--card2);color:var(--mut);
+padding:8px 13px;border-radius:18px;font-size:12.5px;font-weight:800;font-family:inherit;
+white-space:nowrap;cursor:pointer;transition:.15s}
+.atab button.on{background:linear-gradient(90deg,var(--acc),var(--green));color:#0b1220;border-color:transparent}
+.apane,.spane,.kpane{display:none}
+.apane.on,.spane.on,.kpane.on{display:block}
+.box{border:2px solid var(--line);border-radius:12px;padding:11px;margin-bottom:10px;background:var(--card2)}
+.box h4{margin:0 0 7px;font-size:14px;color:var(--acc2)}
+.bad{background:rgba(248,113,113,.07);border-color:rgba(239,68,68,.45)}
+.bad h4{color:#fca5a5}
+.good{background:rgba(52,211,153,.08);border-color:rgba(52,211,153,.45)}
+.good h4{color:#6ee7b7}
+.warn{background:rgba(251,191,36,.07);border-color:rgba(245,158,11,.45)}
+.warn h4{color:#fcd34d}
+.mini{font-size:12.5px;line-height:1.85;color:var(--mut)}
+.mini b{color:#fff}
+.step{display:flex;gap:10px;margin-bottom:11px;align-items:flex-start}
+.stepn{flex:0 0 auto;width:27px;height:27px;border-radius:50%;background:var(--acc);color:#0b1220;
+display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px}
+.stepb{flex:1;font-size:13px;line-height:1.85;padding-top:2px;color:var(--tx)}
+.stepb b{color:#fff}
+.kv{display:flex;justify-content:space-between;gap:9px;padding:8px 10px;border-bottom:1px solid var(--line);
+font-size:12.5px;align-items:center}
+.kv:last-child{border-bottom:none}
+.kv .k{font-weight:800;color:#fff;flex:0 0 auto}
+.kv .v{font-family:monospace,monospace;direction:ltr;background:#0b1220;padding:3px 9px;border-radius:6px;
+font-size:12px;font-weight:700;color:var(--acc2);white-space:nowrap;border:1px solid var(--line)}
+.tb{width:100%;border-collapse:collapse;font-size:12px;margin-top:7px}
+.tb td{border:1px solid var(--line);padding:5px 6px;text-align:center;color:var(--tx)}
+.tb tr:first-child td{background:#0b1220;color:var(--acc2);font-weight:800}
+pre.cardex{background:#0b1220;color:#a5f3fc;padding:11px;border-radius:9px;font-size:11.5px;
+direction:ltr;text-align:left;overflow-x:auto;line-height:1.7;margin:7px 0;
+font-family:monospace,monospace;white-space:pre-wrap;border:1px solid var(--line)}
+.dk{border-right:5px solid var(--acc);background:var(--card2);border-radius:9px;padding:11px;margin-bottom:9px}
+.dk.d2{border-right-color:#8b5cf6}
+.dk .dn{font-weight:800;font-size:14.5px;color:var(--acc2);font-family:monospace,monospace;
+direction:ltr;text-align:left}
+.dk.d2 .dn{color:#c4b5fd}
+.dk .dd{font-size:12.5px;color:var(--mut);margin-top:5px;line-height:1.8}
+.dk .dd b{color:#fff}
+.rule{display:flex;gap:9px;padding:10px;border-radius:10px;margin-bottom:8px;background:var(--card2);
+border:2px solid var(--line);align-items:flex-start}
+.rule .ic{flex:0 0 auto;font-size:17px;line-height:1.4}
+.rule .tx{flex:1;font-size:13px;line-height:1.8}
+.rule .tx b{color:#fff;display:block;margin-bottom:2px;font-size:13.5px}
+.rule .tx span{color:var(--mut);font-size:12.5px}
+.rule.r{background:rgba(248,113,113,.07);border-color:rgba(239,68,68,.45)}
+.rule.r .tx b{color:#fca5a5}
+.rule.g{background:rgba(52,211,153,.08);border-color:rgba(52,211,153,.45)}
+.rule.g .tx b{color:#6ee7b7}
+.rule.y{background:rgba(251,191,36,.07);border-color:rgba(245,158,11,.45)}
+.rule.y .tx b{color:#fcd34d}
+.big{background:linear-gradient(135deg,#134e4a,#115e59);color:#fff;border-radius:12px;padding:14px;
+font-size:14px;line-height:1.9;font-weight:700;margin-bottom:11px;text-align:center;
+border:1px solid rgba(45,212,191,.3)}
+
+/* ═══════════ بکاپ ═══════════ */
+.bkinfo{background:var(--card2);border:1px solid var(--line);border-radius:9px;padding:9px 11px;
+font-size:12.5px;color:var(--mut);line-height:1.8;margin-bottom:10px;font-weight:700}
+.bkinfo b{color:#fff}
+.bkarea{width:100%;height:150px;border:2px solid var(--line);border-radius:10px;padding:9px;
+font-family:monospace,monospace;font-size:10.5px;direction:ltr;text-align:left;resize:vertical;
+line-height:1.5;background:#0b1220;color:#a5f3fc}
+.bkbtn{width:100%;padding:13px 12px;border:none;border-radius:10px;font-family:inherit;
+font-size:14.5px;font-weight:800;margin-top:9px;color:#fff;line-height:1.6;min-height:48px;
+cursor:pointer;transition:.15s}
+.bkbtn:hover{filter:brightness(1.12)}
+.bkok{background:rgba(52,211,153,.12);border:2px solid rgba(52,211,153,.5);color:#6ee7b7;
+border-radius:9px;padding:10px;font-size:13.5px;font-weight:800;margin-top:9px;text-align:center}
+.bkerr{background:rgba(248,113,113,.1);border:2px solid rgba(239,68,68,.5);color:#fca5a5;
+border-radius:9px;padding:10px;font-size:13.5px;font-weight:800;margin-top:9px;text-align:center}
+.bknum{display:inline-block;background:var(--acc);color:#0b1220;border-radius:7px;padding:2px 9px;
+font-size:12px;margin-right:5px;font-weight:800}
+.filebtn{display:block;width:100%;padding:15px 12px;border:2px dashed #8b5cf6;border-radius:10px;
+background:rgba(139,92,246,.1);color:#c4b5fd;font-family:inherit;font-size:14px;font-weight:800;
+text-align:center;margin-bottom:12px;line-height:1.6;cursor:pointer}
+
+footer.footer{text-align:center;color:var(--mut);font-size:13px;margin-top:24px;padding:20px;
+border-top:1px solid var(--line)}
+@media(max-width:420px){.picks{flex:0 0 104px;width:104px}.pick{font-size:11px;padding:5px 3px}
+.grid{grid-template-columns:repeat(2,1fr)}}
+@media print{.jump,.totop,.topbar,.btn{display:none!important}body{padding:0;background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<!-- شبیه‌ساز حافظه برای محیط‌های بدون localStorage -->
+<script>
+(function(){
+  try{ localStorage.getItem('__probe__'); return; }catch(e){}
+  var mem=Object.create(null);
+  Object.defineProperty(window,'localStorage',{value:{
+    getItem:function(k){return k in mem?mem[k]:null},
+    setItem:function(k,v){mem[k]=String(v)},
+    removeItem:function(k){delete mem[k]},
+    clear:function(){mem=Object.create(null)},
+    key:function(i){return Object.keys(mem)[i]||null},
+    get length(){return Object.keys(mem).length}
+  },configurable:true});
+})();
+</script>
+
+<div class="topbar" id="topbar">
+<header class="deheader"><div class="hin">
+  <div class="hr">
+    <div class="hleft">
+      <div class="dnum" id="dn">روز ۱</div>
+      <div class="dmeta" id="dm"></div>
+    </div>
+    <div class="picks">
+      <button class="pick" id="bph" onclick="pickPh()">فاز<span class="ar">▾</span></button>
+      <button class="pick" id="bmo" onclick="pickMo()">ماه<span class="ar">▾</span></button>
+      <button class="pick" id="bwk" onclick="pickWk()">هفته<span class="ar">▾</span></button>
+      <button class="pick" id="bday" onclick="pickDay()">روز<span class="ar">▾</span></button>
+    </div>
+  </div>
+  <div class="pwrap"><div class="prog"><i id="pb"></i></div><span class="ppc" id="ppc"></span></div>
+  <span class="syn" id="syn"></span>
+</div></header>
+</div>
+
+<dialog id="dPh"><h3>📅 انتخاب فاز</h3><div class="dc" id="dcPh"></div>
+<button class="cl" onclick="dPh.close()">بستن</button></dialog>
+
+<dialog id="dMo"><h3>📆 انتخاب ماه</h3><div class="dc" id="dcMo"></div>
+<button class="cl" onclick="dMo.close()">بستن</button></dialog>
+
+<dialog id="dWk"><h3>🗓️ انتخاب هفته</h3><div class="dc" id="dcWk"></div>
+<button class="cl" onclick="dWk.close()">بستن</button></dialog>
+
+<dialog id="dDay"><h3>📅 انتخاب روز</h3><div class="dc" id="dcDay"></div>
+<button class="cl" onclick="dDay.close()">بستن</button></dialog>
+
+<dialog id="dSet"><h3>⚙️ تنظیمات</h3><div class="dc">
+  <div class="note">تاریخ شروع را تغییر دهید تا تقویم کل ۱۰۹۲ روز از همان تاریخ بازمحاسبه شود.
+  تیک‌ها و پیشرفت شما پاک نمی‌شود.</div>
+  <div class="fld"><label>📅 تاریخ شروع (شمسی)</label>
+    <div class="dsp"><select id="sY"></select><select id="sM"></select><select id="sD"></select></div>
+  </div>
+  <div class="fld"><label>🗓️ روز شروع هفته</label>
+    <select id="sW">
+      <option value="0">شنبه (پیش‌فرض)</option>
+      <option value="1">یکشنبه</option><option value="2">دوشنبه</option>
+      <option value="3">سه‌شنبه</option><option value="4">چهارشنبه</option>
+      <option value="5">پنج‌شنبه</option><option value="6">جمعه</option>
+    </select>
+  </div>
+  <button class="bsave" onclick="saveSet()">💾 ذخیره</button>
+  <button class="bsave" style="background:#0ea5e9;margin-top:8px" onclick="setStartToday()">📅 تاریخ شروع = امروز</button>
+  <div style="margin-top:14px;border-top:1px solid var(--line);padding-top:12px">
+    <button class="bsave" style="background:#C00000;margin-top:8px" onclick="clearChecks()">🗑 پاک کردن همه تیک‌ها</button>
+  </div>
+</div><button class="cl" onclick="dSet.close()">بستن</button></dialog>
+
+<dialog id="dExp"><h3>📤 خروجی گرفتن (Export)</h3><div class="dc">
+  <div class="bkinfo">سه راه برای ذخیره دارید. هرکدام که برایتان کار کرد استفاده کنید.</div>
+  <textarea class="bkarea" id="expTA" readonly onclick="this.select()"></textarea>
+  <div id="expInfo" style="font-size:12px;color:#94a3b8;margin-top:6px;text-align:center"></div>
+  <button class="bkbtn" style="background:#0E7C5A" onclick="copyBk()">📋 کپی بکاپ</button>
+  <button class="bkbtn" style="background:#1F3864" onclick="dlBk()">⬇ دانلود فایل</button>
+  <div class="bkinfo" style="margin-top:12px;margin-bottom:0;background:rgba(251,191,36,.12);color:#fcd34d">
+    💡 اگر دکمه‌ها کار نکردند: روی کادر بالا بزنید تا همه‌ی متن انتخاب شود،
+    بعد دستی کپی کنید و در فایلی به نام <b>EN-backup.json</b> بچسبانید.
+  </div>
+  <div id="expMsg"></div>
+</div><button class="cl" onclick="dExp.close()">بستن</button></dialog>
+
+<dialog id="dImp"><h3>📥 وارد کردن (Import)</h3><div class="dc">
+  <div class="bkinfo">دو روش دارید. روش دوم همیشه کار می‌کند.</div>
+  <label class="filebtn" for="impFile">📁 انتخاب فایل JSON</label>
+  <input type="file" id="impFile" accept=".json,application/json" style="display:none">
+  <div style="text-align:center;color:#64748b;font-size:12.5px;margin:4px 0 10px;font-weight:700">
+    ── یا ──</div>
+  <textarea class="bkarea" id="impTA" placeholder="متن بکاپ را اینجا بچسبانید..."></textarea>
+  <button class="bkbtn" style="background:#7A3E9D" onclick="doImp(impTA.value)">📥 وارد کردن</button>
+  <div id="impMsg"></div>
+</div><button class="cl" onclick="dImp.close()">بستن</button></dialog>
+<dialog id="dSum"><h3>📚 خلاصه‌ی منابع مسیر</h3><div class="dc" id="dcSum"></div>
+<button class="cl" onclick="dSum.close()">بستن</button></dialog>
+
+<div class="jump">
+  <button class="today" onclick="goToday()">امروز</button>
+  <input id="ji" type="number" min="1" max="1092" placeholder="روز">
+  <button onclick="jump()">برو</button>
+  <button class="cog" onclick="openSet()">⚙</button>
+  <button class="io" onclick="openExp()">📤</button>
+  <button class="io2" onclick="openImp()">📥</button>
+  <span class="stat" id="st"></span>
+</div>
+
+<div class="wrap">
+<section class="view active" id="view-home">
+  <div class="home-hero">
+    <h1>🎓 مسیر ۳۶ ماهه انگلیسی — از A2 تا B2+ و آیلتس GT 7.0</h1>
+    <p>برنامه‌ی روزانه‌ی خودخوان · هدف: مهاجرت کاری Data Engineering به اروپا · اولویت ۱: ارتباط واقعی، اولویت ۲: نمره</p>
+    <div class="chips">
+      <span class="chip">🗺️ ۶ فاز · ۵ گیت</span><span class="chip">📅 ۱۰۹۲ روز / ۱۵۶ هفته</span>
+      <span class="chip">🎯 آیلتس GT 7.0 با تریگر، نه تقویم</span><span class="chip">⏱ ۷۵–۹۵ دقیقه در روز</span>
+      <span class="chip">🔒 استک حداقلی: ۹ منبع فعال</span><span class="chip">🏋️ هم‌زیست با DE ۲ساعت + فارکس ۱ساعت + ۴ جلسه باشگاه</span>
+    </div>
+  </div>
+  <span class="section-label">📅 فازهای مسیر — روی هر فاز بزنید تا ماه‌هایش باز شود</span>
+  <div class="phases-grid">
+  <div class="pcard" data-p="F1" onclick="openPhase('F1')"><div class="pcard-title">فاز ۱ — راه‌اندازی موتور</div><div class="pcard-range">روز ۱ تا ۱۸۰ · ماه ۱ تا ۶ · سطح A1/A2 → A2+</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  <div class="pcard" data-p="F2" onclick="openPhase('F2')"><div class="pcard-title">فاز ۲ — ساخت پایه واقعی</div><div class="pcard-range">روز ۱۸۱ تا ۴۲۰ · ماه ۷ تا ۱۴ · سطح A2+ → B1−</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  <div class="pcard" data-p="F3" onclick="openPhase('F3')"><div class="pcard-title">فاز ۳ — بهره‌برداری + انگلیسی حرفه‌ای</div><div class="pcard-range">روز ۴۲۱ تا ۷۲۰ · ماه ۱۵ تا ۲۴ · سطح B1− → B2−</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  <div class="pcard" data-p="F4" onclick="openPhase('F4')"><div class="pcard-title">فاز ۴ — پخت B2 و مصاحبه</div><div class="pcard-range">روز ۷۲۱ تا ۹۰۰ · ماه ۲۵ تا ۳۰ · سطح → B2 جامد</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  <div class="pcard" data-p="F5" onclick="openPhase('F5')"><div class="pcard-title">فاز ۵ — آیلتس GT، روش کمبریج</div><div class="pcard-range">روز ۹۰۱ تا ۱۰۵۰ · ماه ۳۱ تا ۳۵ · هدف 7.0</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  <div class="pcard" data-p="F6" onclick="openPhase('F6')"><div class="pcard-title">فاز ۶ — اسپرینت اپلای + بافر</div><div class="pcard-range">روز ۱۰۵۱ تا ۱۰۹۲ · ماه ۳۶ · تثبیت زیر فشار</div><div class="pbar"><i style="width:0%"></i></div><div class="pcard-foot"><span>—</span></div><div class="pcard-go">مشاهده فاز ←</div></div>
+  </div>
+  <span class="section-label">📚 منابع و راهنماها</span>
+  <div class="home-menu">
+    <div class="mcard" onclick="gotoRes()"><div class="mc-icon">📚</div><div class="mc-title">منابع در یک نگاه</div><div class="mc-desc">کدام منبع از کدام روز فعال است + استک ۹تایی</div></div>
+    <div class="mcard" onclick="gotoView('view-anki')"><div class="mc-icon">🃏</div><div class="mc-title">راهنمای کامل Anki</div><div class="mc-desc">نصب، دو دک، FSRS، ساختار کارت، عیب‌یابی</div></div>
+    <div class="mcard" onclick="gotoView('view-speak')"><div class="mc-icon">🗣️</div><div class="mc-title">شدوئینگ، مونولوگ و AI</div><div class="mc-desc">پروتکل‌ها + ۲۰ موضوع مونولوگ + پرامپت تصحیح</div></div>
+    <div class="mcard" onclick="gotoView('view-keys')"><div class="mc-icon">⭐</div><div class="mc-title">نکات کلیدی</div><div class="mc-desc">۱۵ قانون، گیت‌ها، پروتکل‌های بازیابی، حقیقت‌های سخت</div></div>
+    <div class="mcard" onclick="gotoView('view-milestones')"><div class="mc-icon">🏁</div><div class="mc-title">نقاط عطف مسیر</div><div class="mc-desc">گیت‌ها، EF SET‌ها، آزمون — روی هر کدام بزنید تا به همان روز بروید</div></div>
+  </div>
+</section>
+<section class="view" id="view-F1"></section>
+<section class="view" id="view-F2"></section>
+<section class="view" id="view-F3"></section>
+<section class="view" id="view-F4"></section>
+<section class="view" id="view-F5"></section>
+<section class="view" id="view-F6"></section>
+
+<section class="view" id="view-resources">
+  <div class="phase-top"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button>
+    <div class="phase-title">📚 منابع در یک نگاه</div>
+    <div class="phase-range">قانون شش‌تایی · چه منبعی از کدام روز تا کدام روز فعال است</div>
+    <button class="btn" onclick="openSum()">📋 خلاصه‌ی منابع</button></div>
+  <div class="month-pane" id="dcResView"></div>
+  <div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button></div>
+</section>
+
+<section class="view" id="view-anki">
+  <div class="phase-top"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button>
+    <div class="phase-title">🃏 راهنمای کامل Anki</div>
+    <div class="phase-range">نصب · دو دک · تنظیمات FSRS · ساختار کارت · برنامه روزانه · عیب‌یابی</div></div>
+  <div class="month-pane">
+
+<div class="atab" id="atab"></div>
+
+<!-- ═══ ۱ نصب ═══ -->
+<div class="apane" data-t="نصب و راه‌اندازی">
+<div class="card2"><b>Anki را از کجا بگیرم؟</b><br>
+اندروید: <b>AnkiDroid</b> (رایگان) · کامپیوتر: <span style="font-family:monospace;direction:ltr">apps.ankiweb.net</span> (رایگان) ·
+آیفون: از مرورگر با AnkiWeb (رایگان) — اپ iOS پولی است و لازم نیست
+</div>
+<div class="box"><h4>مراحل روز اول (روز ۱ برنامه)</h4>
+<div class="step"><div class="stepn">۱</div><div class="stepb">AnkiDroid را نصب کنید</div></div>
+<div class="step"><div class="stepn">۲</div><div class="stepb">یک حساب رایگان در <b>AnkiWeb</b> بسازید — پشتیبان ۳۶ ماهه‌ی شماست؛ گوشی گم شد، کارت‌ها نمی‌روند</div></div>
+<div class="step"><div class="stepn">۳</div><div class="stepb">منو ← Settings ← AnkiWeb account ← وارد شوید</div></div>
+<div class="step"><div class="stepn">۴</div><div class="stepb">دو دک بسازید: <b>01_EEW</b> و <b>02_Mined</b></div></div>
+<div class="step"><div class="stepn">۵</div><div class="stepb">تنظیمات هر دو دک را طبق تب «تنظیمات» اعمال کنید (مخصوصاً FSRS)</div></div>
+<div class="step"><div class="stepn">۶</div><div class="stepb">یادآور بگذارید — جای آن در گرید شما <b>بلوک B شب</b> است؛ اگر صبح‌ها پایدارترید فقط «مرور» را ببرید صبح، «کارت جدید» شب بماند</div></div>
+</div>
+<div class="box warn"><h4>⏰ قانون فقط یک چیز</h4>
+<div class="mini">Anki تنها فعالیتی است که <b>هر روز</b> انجام می‌شود — حتی روز حداقلی، حتی بیمار، حتی سفر.
+۱۰ دقیقه در ۱۰۹۲ روز، ~۴۰۰۰ واژه‌ی نگه‌داشته می‌سازد. زنجیره را نشکنید.</div></div>
+</div>
+
+<!-- ═══ ۲ دو دک ═══ -->
+<div class="apane" data-t="دو دک">
+<div class="card2"><b>قانون طلایی:</b> فقط ۲ دک — نه سه، نه پنج. دک زیاد = فلج تصمیم‌گیری.
+برای تفکیک از <b>تگ</b> استفاده کنید، نه دک.</div>
+<div class="dk"><div class="dn">01_EEW</div><div class="dd">
+<b>منبع:</b> 4000 Essential English Words (جلد ۱ تا ۴) · <b>چه چیزی:</b> ۲۰ واژه‌ی هر یونیت ·
+<b>کِی:</b> چهارشنبه‌ی سبک (۲۰ کارت) + جمعه‌ی عمیق (۲۰) و تمرینی (۲۰) ·
+<b>هدف:</b> ~۳۶۰۰ کارت تا حدود ماه ۱۰ · <b>ویژگی:</b> از پیش تعیین‌شده — بدون تصمیم‌گیری</div></div>
+<div class="dk d2"><div class="dn">02_Mined</div><div class="dd">
+<b>منبع:</b> واژه‌هایی که خودتان پیدا می‌کنید: VOA، Tactics، Speak Now، ریدینگ، متون فنی ·
+<b>به‌همراه تگ‌ها:</b> <span style="font-family:monospace;direction:ltr">error</span> (کارت خطا از تصحیح AI) ·
+<span style="font-family:monospace;direction:ltr">de</span> (واژگان Data Engineering از ماه ۱۶) ·
+<span style="font-family:monospace;direction:ltr">ielts</span> (فاز ۵) ·
+<b>هدف:</b> ~۲۰۰۰ کارت · <b>ویژگی:</b> شخصی — دقیقاً واژه‌هایی که شما بلد نیستید</div></div>
+<div class="box good"><h4>✅ فیلتر ورود به Mined</h4>
+<div class="mini">هر واژه‌ای را کارت نکنید. فقط اگر حداقل یکی: <b>(۱)</b> دو بار در دو متن مختلف دیده‌اید،
+<b>(۲)</b> واژه‌ی پرکاربرد آکادمیک/کاری است، <b>(۳)</b> در Speaking یا رایتینگ به کارتان می‌آید. واژه‌ی نادر = وقت تلف‌شده.</div></div>
+</div>
+
+<!-- ═══ ۳ تنظیمات ═══ -->
+<div class="apane" data-t="تنظیمات">
+<div class="card2">مسیر: دک را <b>نگه دارید</b> ← Options — برای <b>هر دو دک</b> اعمال کنید</div>
+<div class="box"><h4>📊 Daily Limits — به تفکیک فاز</h4>
+<table class="tb">
+<tr><td>فاز</td><td>ماه</td><td>New/day (EEW)</td><td>Mined</td><td>Max reviews</td></tr>
+<tr><td>۱</td><td>۱–۶</td><td>۱۰</td><td>۵</td><td>۱۲۰</td></tr>
+<tr><td>۲</td><td>۷–۱۴</td><td>۱۰</td><td>۵</td><td>۱۴۰</td></tr>
+<tr><td>۳</td><td>۱۵–۲۴</td><td>۸</td><td>۵ (+تگ de)</td><td>۱۶۰</td></tr>
+<tr><td>۴</td><td>۲۵–۳۰</td><td>۵</td><td>۵</td><td>۱۶۰</td></tr>
+<tr><td>۵</td><td>۳۱–۳۵</td><td>۵</td><td>آزاد (خطاها)</td><td>۱۶۰</td></tr>
+<tr><td>۶</td><td>۳۶</td><td>۵</td><td>۵</td><td>۱۴۰</td></tr>
+</table>
+<div class="mini" style="margin-top:8px">⚠️ چرا کاهشی؟ چون بار <b>مرور</b> هر ماه سنگین‌تر می‌شود؛ اگر کارت جدید ثابت بماند صف منفجر می‌شود.</div></div>
+<div class="box"><h4>⚙️ سایر تنظیمات — یک‌بار، برای همیشه</h4>
+<div class="kv"><span class="k">Learning steps</span><span class="v">1m 10m 1d</span></div>
+<div class="kv"><span class="k">Relearning steps</span><span class="v">10m 1d</span></div>
+<div class="kv"><span class="k">Graduating interval</span><span class="v">2</span></div>
+<div class="kv"><span class="k">Easy interval</span><span class="v">4</span></div>
+<div class="kv"><span class="k">Insertion order</span><span class="v">Sequential</span></div>
+<div class="kv"><span class="k">New/review order</span><span class="v">Mix with reviews</span></div>
+<div class="kv"><span class="k">Leech threshold / action</span><span class="v">6 · Tag Only</span></div>
+<div class="kv"><span class="k">Bury new/review siblings</span><span class="v">ON · ON</span></div>
+<div class="kv"><span class="k">Maximum interval</span><span class="v">365 days</span></div>
+<div class="kv"><span class="k">FSRS</span><span class="v">ON</span></div></div>
+<div class="box good"><h4>🧠 FSRS را روشن کنید</h4>
+<div class="mini">الگوریتم هوشمندترِ زمان‌بندی: ~۲۰–۳۰٪ مرور کمتر با همان یادآوری. بعد از ~۱۰۰۰ مرور، دکمه‌ی <b>Optimize</b> را بزنید تا با حافظه‌ی خودتان تنظیم شود.</div></div>
+<div class="box warn"><h4>🔑 Leech چیست؟</h4>
+<div class="mini">کارتی که ۶ بار فراموشش کرده‌اید. هر دو هفته تگ <span style="font-family:monospace;direction:ltr">leech</span> را جستجو کنید:
+هر کارتِ آنجا = <b>کارت بد است، نه حافظه‌ی شما</b>. پاکش کنید و با جمله‌ای از زندگی خودتان از نو بسازید.</div></div>
+</div>
+
+<!-- ═══ ۴ ساختار کارت ═══ -->
+<div class="apane" data-t="ساختار کارت">
+<div class="box bad"><h4>❌ کارتی که نباید بسازید</h4>
+<pre class="cardex" style="background:#450a0a;border-color:#7f1d1d">FRONT:  improve
+BACK:   بهبود دادن</pre>
+<div class="mini">بافت ندارد، تلفظ ندارد، و مغز را به ترجمه‌ی لحظه‌ای فارسی↔انگلیسی عادت می‌دهد — همان عامل مکث در اسپیکینگ.</div></div>
+<div class="box good"><h4>✅ کارت درست — چهار جزء</h4>
+<pre class="cardex">FRONT
+The company wants to ______
+its data pipeline.
+
+BACK
+improve  /ɪmˈpruːv/
+= make better
+
+My sentence:
+I improved my SQL skills last month.</pre>
+<div class="mini"><b>۱. جمله با جای خالی</b> (مثال خود کتاب — بافت دارد) · <b>۲. آوانگاری</b> ·
+<b>۳. تعریف انگلیسی</b> نه فارسی · <b>۴. جمله‌ی خودتان</b> — مهم‌ترین جزء؛ واژه را از منفعل به فعال می‌برد</div></div>
+<div class="box"><h4>🎧 کارت شنیداری — برای واژه‌های سخت</h4>
+<pre class="cardex">FRONT:  [فایل صوتی]
+BACK:   thorough /ˈθʌrə/ = complete and careful</pre></div>
+<div class="box"><h4>⏱️ زمان ساخت</h4>
+<div class="mini">کارت درست: ۴۰ تا ۶۰ ثانیه. کمال‌گرایی ممنوع — کارت «به‌اندازه‌ی کافی خوب» بهتر از کارت بی‌نقصی است که ساخته نشده.</div></div>
+</div>
+
+<!-- ═══ ۵ برنامه روزانه ═══ -->
+<div class="apane" data-t="برنامه روزانه">
+<div class="box"><h4>📅 کِی از کدام دک</h4>
+<table class="tb">
+<tr><td>روز</td><td>بلوک</td><td>دک</td><td>کارت جدید</td></tr>
+<tr><td>هر روز (بلوک B)</td><td>مرور</td><td>هر دو</td><td>—</td></tr>
+<tr><td>شنبه تا سه‌شنبه</td><td>واژگان</td><td>Mined</td><td>~۵</td></tr>
+<tr><td>چهارشنبه</td><td>واژگان سبک</td><td>EEW یونیت سبک</td><td>۲۰</td></tr>
+<tr><td>پنجشنبه</td><td>تثبیت</td><td>هر دو</td><td>❌ صفر</td></tr>
+<tr><td>جمعه</td><td>جلسه‌ی بلند</td><td>EEW عمیق + تمرینی</td><td>۴۰</td></tr>
+</table></div>
+<div class="box good"><h4>🔘 کدام دکمه؟</h4>
+<div class="kv"><span class="k">Again</span><span style="font-size:12px">اصلاً یادم نبود</span></div>
+<div class="kv"><span class="k">Hard</span><span style="font-size:12px">یادم آمد ولی خیلی سخت</span></div>
+<div class="kv"><span class="k">Good</span><span style="font-size:12px">یادم آمد — ۹۰٪ مواقع همین</span></div>
+<div class="kv"><span class="k">Easy</span><span style="font-size:12px">فوری و بدون فکر</span></div>
+<div class="mini" style="margin-top:8px">⚠️ <b>Hard را زیاد نزنید</b> — صف مرور بی‌دلیل سنگین می‌شود.</div></div>
+</div>
+
+<!-- ═══ ۶ عیب‌یابی ═══ -->
+<div class="apane" data-t="عیب‌یابی">
+<div class="box bad"><h4>😰 صف انباشته شد (۳۰۰+)</h4>
+<div class="mini"><b>نکنید:</b> حذف دک یا یک‌شبه صفر کردن · <b>بکنید:</b> کارت جدید = صفر تا خالی شدن · روزی حداکثر ۵۰ مرور · زیر ۱۰۰ که رسید، جدید را نصف کنید. ۷ تا ۱۰ روز طول می‌کشد — طبق پروتکل مسیر، دوبل‌کاری ممنوع است.</div></div>
+<div class="box warn"><h4>📉 دقت مرور زیر ۸۵٪</h4>
+<div class="mini">کارت جدید بیش از ظرفیت است → New/day را ۳۰٪ کم کنید تا دقت به ۸۵–۹۰٪ برسد. بالای ۹۵٪ یعنی خیلی آسان — افزایش دهید. این دو عدد را در حلقه‌ی ۱۴روزه گزارش کنید.</div></div>
+<div class="box"><h4>🔁 کارت سمج</h4>
+<div class="mini">تقصیر حافظه نیست — کارت بد است. با جمله‌ای که به زندگی خودتان ربط دارد از نو بسازید یا پاکش کنید.</div></div>
+<div class="box"><h4>✈️ چند روز نزدم</h4>
+<div class="mini"><b>۱ روز:</b> هیچ، ادامه بده · <b>۲–۳ روز:</b> فقط Anki، بقیه فراموش ·
+<b>۱–۲ هفته:</b> یک هفته سبک، بعد ادامه · <b>بیش از یک ماه:</b> پروتکل بازگشت (هفته‌ی ۱ فقط Anki؛ بعد هر هفته یک منبع اضافه). ❌ هرگز Forget/ریست کل دک را نزنید.</div></div>
+<div class="box good"><h4>📊 آمار کجا؟</h4>
+<div class="mini">منو ← Statistics · دو عدد برای حلقه و داشبورد: <b>Card Counts ← Mature</b> و <b>Answer Buttons ← Correct %</b></div></div>
+</div>
+
+<div class="card2" style="background:rgba(52,211,153,.12);border-color:#217346;color:#86efac;margin-top:6px">
+🔒 <b>Anki تنها چیزی است که حتی روزهای بیماری و سفر هم انجام می‌شود.</b> اگر همه‌چیز فروپاشید، همین ۱۰ دقیقه باقی می‌ماند.
+</div>
+</div>
+  <div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button></div>
+</section>
+<section class="view" id="view-speak">
+  <div class="phase-top"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button>
+    <div class="phase-title">🗣️ شدوئینگ، مونولوگ و AI</div>
+    <div class="phase-range">سه تمرینی که جای شریک مکالمه را می‌گیرند — تا انسان واقعی از ماه ۸</div></div>
+  <div class="month-pane">
+
+<div class="atab" id="stab"></div>
+
+<div class="spane" data-s="چرا این سه؟">
+<div class="card2">شما تا حدود B1 <b>شریک مکالمه‌ی انسانی ندارید</b> (قانون رایگان). این سه تمرین جای او را پر می‌کنند — هرکدام کار متفاوت و جایگزین‌ناپذیر.</div>
+<div class="box"><h4>تقسیم کار</h4>
+<table class="tb">
+<tr><td></td><td>شدوئینگ</td><td>مونولوگ</td><td>AI voice</td></tr>
+<tr><td>چه می‌سازد</td><td>عضله و ریتم</td><td>تولید آزاد</td><td>تعامل دوطرفه</td></tr>
+<tr><td>ورودی</td><td>صوت الگو</td><td>فقط ذهن شما</td><td>سوال‌های غیرپیش‌بینی</td></tr>
+<tr><td>خطا</td><td>تقریباً صفر</td><td>زیاد — و مفید</td><td>متوسط</td></tr>
+<tr><td>زمان</td><td>۱۰ دقیقه</td><td>۵ دقیقه</td><td>۱۰ دقیقه</td></tr>
+<tr><td>شروع</td><td>روز ۱</td><td>روز ۶</td><td>روز ۱۶</td></tr>
+</table>
+<div class="mini" style="margin-top:8px">فقط شدوئینگ = تلفظ خوب ولی قفل در صحبت آزاد · فقط مونولوگ = روان ولی با ریتم تثبیت‌شده‌ی غلط · بدون AI = آمادگی برای «جواب نداشتن» صفر. <b>هر سه لازم است.</b></div></div>
+<div class="box good"><h4>🎯 چرا این برای هدف شما حیاتی است</h4>
+<div class="mini">هدف شما جلسه‌ی کاری و مصاحبه است: صحبت <b>از ثانیه‌ی اول</b>، بدون گرم‌شدن. از ماه ۸ <b>HelloTalk</b> (انسان واقعی، رایگان) و از فاز ۴ <b>مصاحبه‌گر AI</b> اضافه می‌شود — AI صبور است، کارفرما نیست؛ برای همین انسان واقعی را از B1 وارد می‌کنیم.</div></div>
+</div>
+
+<div class="spane" data-s="شدوئینگ">
+<div class="card2"><b>شدوئینگ چیست؟</b> صوت را پخش می‌کنید و <b>همزمان</b> با گوینده حرف می‌زنید — با فاصله‌ی نیم‌ثانیه، مثل سایه. متوقف نمی‌شوید، دنبال می‌روید: <b>عقب بمانید و بدوید.</b></div>
+<div class="box"><h4>🔁 پروتکل چهار مرحله‌ای — ۱۰ دقیقه</h4>
+<div class="step"><div class="stepn">۱</div><div class="stepb"><b>گوش کن (۲′)</b> — فقط آهنگ جمله، بدون تلاش برای فهم کامل</div></div>
+<div class="step"><div class="stepn">۲</div><div class="stepb"><b>با متن (۳′)</b> — هماهنگ شوید، هنوز تقلید کامل نه</div></div>
+<div class="step"><div class="stepn">۳</div><div class="stepb"><b>بدون متن (۴′)</b> — مرحله‌ی اصلی. جا ماندید؟ بپرید جلو و ادامه دهید</div></div>
+<div class="step"><div class="stepn">۴</div><div class="stepb"><b>ضبط و مقایسه (۱′)</b> — فقط <b>یک تفاوت</b> یادداشت کنید</div></div></div>
+<div class="box good"><h4>✅ چه چیزی را شدو کنم؟</h4>
+<div class="mini">همیشه <b>صدای همان روز</b>: شنبه → یونیت Tactics امروز · یکشنبه → دیالوگ Speak Now امروز · جمعه → داستان یونیت 4000 Words. شدوئینگ روی محتوای آشنا چند برابر مؤثرتر است. یک متن را <b>سه روز</b> تکرار کنید، نه هر روز متن جدید.</div></div>
+<div class="box"><h4>📏 قانون سطح</h4>
+<div class="mini">متنی که ۹۰٪ آن را می‌فهمید. سخت بود؟ سرعت ۰.۸× و هر ماه +۰.۰۵ تا ۱.۰ · آسان بود؟ ۱.۱×</div></div>
+<div class="box bad"><h4>❌ چهار اشتباه</h4>
+<div class="mini"><b>۱.</b> آهسته و دقیق خواندن (این ردینگ بلند است نه شدوئینگ) · <b>۲.</b> توقف برای اصلاح · <b>۳.</b> تمرکز روی تک‌تک واج‌ها به‌جای <b>ریتم و استرس جمله</b> · <b>۴.</b> متن جدید هر روز</div></div>
+<div class="box warn"><h4>🎧 نکته‌ی عملی</h4><div class="mini">هدفون بگذارید و یک گوشی را کمی بردارید تا هم فایل را بشنوید هم صدای خودتان را.</div></div>
+</div>
+
+<div class="spane" data-s="مونولوگ و AI">
+<div class="card2"><b>مونولوگ:</b> بدون آمادگی درباره‌ی یک موضوع صحبت و <b>ضبط</b> می‌کنید. <b>AI voice (از روز ۱۶):</b> ۱۰ دقیقه مکالمه‌ی واقعی — بازگویی درس امروز، بعد موضوع آزاد، آخرش «یک چیز را اصلاح کن».</div>
+<div class="box"><h4>▶️ پروتکل مونولوگ — ۵ دقیقه (پنجشنبه‌ها + آرشیو ماهانه)</h4>
+<div class="step"><div class="stepn">۱</div><div class="stepb">موضوع را بردارید · <b>۱۵ ثانیه</b> فکر: شروع / دو نکته / پایان</div></div>
+<div class="step"><div class="stepn">۲</div><div class="stepb">ضبط — <b>بدون توقف</b> تا زمان هدف فاز</div></div>
+<div class="step"><div class="stepn">۳</div><div class="stepb">یک‌بار گوش دهید، فقط <b>یک چیز</b> برای بهبود</div></div>
+<div class="step"><div class="stepn">۴</div><div class="stepb">فایل را با تاریخ ذخیره کنید: <span style="font-family:monospace;direction:ltr">Monologues/1405-07-12_job.m4a</span></div></div></div>
+<div class="box"><h4>📈 رشد مدت و قیدها — به تفکیک فاز</h4>
+<table class="tb">
+<tr><td>فاز</td><td>مدت</td><td>یادداشت</td><td>تمرکز</td></tr>
+<tr><td>۱</td><td>۶۰–۱۸۰ ثانیه</td><td>۳ تا ۵ کلمه کلیدی</td><td>روانی روزمره</td></tr>
+<tr><td>۲</td><td>۹۰–۱۲۰ ثانیه</td><td>فقط ۳ کلمه</td><td>توصیف و روایت</td></tr>
+<tr><td>۳</td><td>۲ دقیقه</td><td>❌ هیچ — ۱۵ث فکر</td><td>نظر + دلیل</td></tr>
+<tr><td>۴</td><td>۳ دقیقه</td><td>❌</td><td>مقایسه، استدلال، مصاحبه</td></tr>
+<tr><td>۵</td><td>طبق آزمون</td><td>زمان واقعی GT</td><td>تسک‌های کمبریج</td></tr>
+<tr><td>۶</td><td>مصاحبه واقعی</td><td>شرایط واقعی</td><td>HR و فنی</td></tr>
+</table></div>
+<div class="box good"><h4>🚨 قانون شماره‌ی یک: توقف ممنوع</h4>
+<div class="mini">واژه یادتان نیامد؟ <b>نایستید:</b> توضیحش دهید («that thing you use for...») · واژه‌ی ساده‌تر بگذارید · «How do I say this... anyway,» · «Let me put it another way» · «What I mean is...». سکوت بدترین گزینه است — در جلسه‌ی کاری هم دقیقاً همین مهارت سنجیده می‌شود.</div></div>
+<div class="box"><h4>💬 ۲۰ موضوع آماده</h4>
+<div class="mini" style="line-height:2.05">۱. امروزم چطور گذشت · ۲. یک اتفاق خوب این هفته · ۳. غذایی که دوست دارم · ۴. شهری که می‌خواهم زندگی کنم · ۵. مهارتی که می‌خواهم یاد بگیرم · ۶. کارم را توصیف کن · ۷. فیلم/سریالی که دیدم · ۸. تعطیلات ایده‌آل · ۹. یک تصمیم سخت · ۱۰. چرا انگلیسی می‌خوانم · ۱۱. مزایا و معایب دورکاری · ۱۲. آیا پول خوشبختی می‌آورد؟ · ۱۳. یک مشکل شهرم و راه‌حلش · ۱۴. تکنولوژی بهتر یا بدتر؟ · ۱۵. کتاب/مقاله‌ای که خواندم · ۱۶. برنامه‌ی پنج‌ساله‌ام · ۱۷. زندگی شهری و روستایی · ۱۸. مهم‌ترین ویژگی دوست خوب · ۱۹. چرا مهاجرت می‌کنم — و نگرانی‌هایم · ۲۰. یک روز کاری من به‌عنوان Data Engineer در آینده</div></div>
+<div class="box warn"><h4>🤖 تصحیح با AI — ماهی دو بار</h4>
+<pre class="cardex">I am a CEFR [A2] English learner.
+This is a transcript of my 2-minute
+monologue. Do NOT rewrite it all.
+1. Estimate my CEFR level.
+2. My TOP 3 recurring errors in a
+   table: Error | Fix | Rule.
+3. Five phrases one level above mine
+   that I could have used.
+4. One focus for next week.
+Transcript: [paste]</pre></div>
+</div>
+
+<div class="spane" data-s="سنجش پیشرفت">
+<div class="box"><h4>📊 چهار عدد هر دو هفته</h4>
+<table class="tb">
+<tr><td>شاخص</td><td>چطور</td><td>روند خوب</td></tr>
+<tr><td>مدت پیوسته</td><td>ثانیه تا اولین توقف طولانی</td><td>↑</td></tr>
+<tr><td>مکث بلند</td><td>تعداد سکوت بیش از ۳ ثانیه</td><td>↓</td></tr>
+<tr><td>تکرار واژه</td><td>دفعات very / good / thing</td><td>↓</td></tr>
+<tr><td>خودآغاز بازگویی</td><td>چند بار جمله را از نو شروع کردید</td><td>↓</td></tr>
+</table>
+<div class="mini" style="margin-top:8px">پیشرفت Speaking کند و نامحسوس است — <b>فقط عدد آن را نشان می‌دهد.</b> اینها همان مؤلفه‌های حلقه‌ی ۱۴روزه‌اند.</div></div>
+<div class="box good"><h4>🎙️ آرشیو صوتی — مهم‌ترین کار</h4>
+<div class="mini">پوشه‌ی <b>Monologues</b> + تاریخ. ماهی یک‌بار (اولین پنجشنبه‌ی ماه — در نقشه علامت داده شده) ۳ پرامپت ثابت را بازضبط و مقایسه کنید. <b>فایل روز ۶</b> را در روزهای ۳۶۵، ۷۳۰ و ۱۰۹۲ گوش کنید — قوی‌ترین ابزار انگیزشی شما.</div></div>
+<div class="box"><h4>🎯 معیار موفقیت جلسه</h4>
+<div class="mini">تا آخر زمان هدف بدون سکوت طولانی حرف زدید = موفق. ❌ نه «بدون غلط»، نه «واژگان بالا». روانی قبل از دقت می‌آید — نه برعکس.</div></div>
+</div>
+
+<div class="card2" style="background:rgba(251,146,60,.12);border-color:#B45309;color:#fdba74;margin-top:6px">
+🔒 <b>شدوئینگ و ۱۰ دقیقه AI هرگز حذف نمی‌شوند</b> — حتی در روز حداقلی. ۱۵ دقیقه در روز، تنها چیزی است که بین شما و صحبت روان ایستاده.
+</div>
+</div>
+  <div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button></div>
+</section>
+<section class="view" id="view-keys">
+  <div class="phase-top"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button>
+    <div class="phase-title">⭐ نکات کلیدی — فراموش نکن</div>
+    <div class="phase-range">۱۵ قانون · گیت‌ها · پروتکل‌های بازیابی · حقیقت‌های سخت</div></div>
+  <div class="month-pane">
+
+<div class="atab" id="ktab"></div>
+
+<div class="kpane" data-k="۱۵ قانون">
+<div class="big">اگر همه‌چیز را فراموش کردید،<br>این ۱۵ تا را یادتان بماند</div>
+<div class="rule g"><div class="ic">۱</div><div class="tx"><b>دو بلوک در روز؛ ۱۴ تا ۱۷ خالی می‌ماند</b><span>پنجره‌ی ریکاوری بعد کار مقدس است — انگلیسی بعد از ۱۷.</span></div></div>
+<div class="rule g"><div class="ic">۲</div><div class="tx"><b>Anki هر روز، بدون استثنا</b><span>حتی روز حداقلی. این دارایی مرکب ۳۶ ماهه‌ی شماست.</span></div></div>
+<div class="rule g"><div class="ic">۳</div><div class="tx"><b>روز حداقلی = انجام‌شده</b><span>هرگز دو روز صفر پشت‌سرهم.</span></div></div>
+<div class="rule r"><div class="ic">۴</div><div class="tx"><b>ورودی بدون خروجی = انجام‌نشده</b><span>VOA بدون خلاصه، ریدینگ بدون سامری، شنیدن بدون شدو — اعتبار ندارد.</span></div></div>
+<div class="rule r"><div class="ic">۵</div><div class="tx"><b>روز ازدست‌رفته را جبران نکنید</b><span>دوبل ممنوع. واحد کم‌اولویت حذف می‌شود.</span></div></div>
+<div class="rule g"><div class="ic">۶</div><div class="tx"><b>یک منبع اصلی به ازای هر مهارت</b><span>منبع جدید فقط در ممیزی فصلی و با قانون یکی‌داخل/یکی‌خارج.</span></div></div>
+<div class="rule y"><div class="ic">۷</div><div class="tx"><b>کمبریج و تستینو تا تریگر قفل‌اند</b><span>تریگر = T1 (B2 کارکردی) + T2 (تشخیصی L≥26/R≥26) + T3 (رایتینگ ≥6.0).</span></div></div>
+<div class="rule y"><div class="ic">۸</div><div class="tx"><b>معماری انرژی را تعیین می‌کند، نه اراده</b><span>کار سنگین فقط شب‌های بدون باشگاه (یکشنبه/سه‌شنبه). گرید قانون است.</span></div></div>
+<div class="rule y"><div class="ic">۹</div><div class="tx"><b>حلقه هر پنجشنبه‌ی دوم؛ گیت با شواهد، نه تقویم</b><span>استاندارد ثابت، تاریخ منعطف.</span></div></div>
+<div class="rule y"><div class="ic">۱۰</div><div class="tx"><b>سختی بالا می‌رود، ساعت هرگز</b><span>جلوتر از برنامه؟ منبع سخت‌تر. عقب؟ تعمیر. هرگز ساعت بیشتر.</span></div></div>
+<div class="rule g"><div class="ic">۱۱</div><div class="tx"><b>هر خطا یا کارت می‌شود یا دریل</b><span>نه فقط یک علامت قرمز.</span></div></div>
+<div class="rule y"><div class="ic">۱۲</div><div class="tx"><b>ثبت‌نام آزمون فقط با sit-ready</b><span>دو ماک متوالی: L≥31 · R≥30 · W 6.5-7.0 · S~7. آماده بنشین، نه امیدوار.</span></div></div>
+<div class="rule"><div class="ic">۱۳</div><div class="tx"><b>انگلیسی بودجه‌ی خودش را محترم می‌شمارد — و بودجه‌ی DE و فارکس را هم</b><span>هیچ ترک دیگری را نمی‌خورد.</span></div></div>
+<div class="rule"><div class="ic">۱۴</div><div class="tx"><b>آیین ۵ دقیقه‌ای جمعه</b><span>درصد پایبندی + نگاه به آمار Anki + یک تمرکز برای هفته‌ی بعد.</span></div></div>
+<div class="rule g"><div class="ic">۱۵</div><div class="tx"><b>سطح روز را ساعت ۱۸ انتخاب کن، بی‌گناه</b><span>پایین‌آوردن عمدی = سیستم دارد کار می‌کند، نه شکست.</span></div></div>
+</div>
+
+<div class="kpane" data-k="روزانه">
+<div class="rule g"><div class="ic">🌅</div><div class="tx"><b>Anki در بلوک B، هر روز</b><span>اگر صبح پایدارترید فقط «مرور» را ببرید صبح.</span></div></div>
+<div class="rule y"><div class="ic">🔋</div><div class="tx"><b>۱۴ تا ۱۷ ریکاوری است — خالی</b><span>کار تا ۱۴، ریکاوری، بعد انگلیسی/DE/فارکس.</span></div></div>
+<div class="rule"><div class="ic">🏋️</div><div class="tx"><b>شب‌های باشگاه (شنبه/دوشنبه/چهارشنبه/جمعه) فقط محتوای سبک</b><span>شنیداری، ریدینگ، تمرین — اولین‌بار رایتینگ/گرامر سخت ممنوع.</span></div></div>
+<div class="rule"><div class="ic">🔗</div><div class="tx"><b>شدوئینگ از صدای همان روز</b><span>تعداد «چیز جدید» روز را از ۵ به ۳ می‌رساند.</span></div></div>
+<div class="rule r"><div class="ic">🚫</div><div class="tx"><b>پنجشنبه صفر کارت جدید</b><span>فقط مرور. جمعه ۴۰ کارت (EEW). چهارشنبه ۲۰.</span></div></div>
+<div class="rule y"><div class="ic">📈</div><div class="tx"><b>روز حداقلی شکست نیست</b><span>Anki + ۳ جمله = روز انجام‌شده. ۵ دقیقه در ۱۰۹۲ روز بهتر از ۹۰ دقیقه در ۲۰۰ روز.</span></div></div>
+<div class="rule"><div class="ic">🧩</div><div class="tx"><b>سطح روز را شب، قبل از شروع، انتخاب کن</b><span>خسته؟ مینیمم. معمولی؟ استاندارد. فوق‌العاده؟ حداکثر ۲ ساعت.</span></div></div>
+</div>
+
+<div class="kpane" data-k="Anki">
+<div class="rule r"><div class="ic">❌</div><div class="tx"><b>هرگز کارت «کلمه ← ترجمه فارسی» نسازید</b><span>بازده نصف + مکث در اسپیکینگ.</span></div></div>
+<div class="rule g"><div class="ic">✅</div><div class="tx"><b>کارت = ۴ جزء</b><span>جمله‌ی جای‌خالی از خود کتاب · آوانگاری · تعریف انگلیسی · جمله‌ی خودتان.</span></div></div>
+<div class="rule"><div class="ic">🃏</div><div class="tx"><b>فقط ۲ دک: EEW و Mined + تگ</b><span>error / voa / de / ielts — دک سوم ممنوع.</span></div></div>
+<div class="rule y"><div class="ic">📉</div><div class="tx"><b>دقت ایده‌آل ۸۵–۹۰٪</b><span>زیر ۸۵٪ = جدید را ۳۰٪ کم کن. بالای ۹۵٪ = افزایش.</span></div></div>
+<div class="rule"><div class="ic">🧠</div><div class="tx"><b>FSRS روشن + Optimize بعد از ۱۰۰۰ مرور</b><span>~۲۵٪ مرور کمتر.</span></div></div>
+<div class="rule r"><div class="ic">💥</div><div class="tx"><b>صف انباشته؟ دک را حذف نکن</b><span>جدید=صفر · روزی ۵۰ · ۷ تا ۱۰ روز صبر.</span></div></div>
+</div>
+
+<div class="kpane" data-k="گفتاری">
+<div class="rule r"><div class="ic">🚨</div><div class="tx"><b>در مونولوگ هرگز متوقف نشوید</b><span>واژه نیامد؟ توضیح بده یا «How do I say this». سکوت بدترین گزینه است.</span></div></div>
+<div class="rule y"><div class="ic">🏃</div><div class="tx"><b>شدوئینگ یعنی عقب بمانید و بدوید</b><span>جا ماندید؟ بپرید جلو. یک متن، سه روز.</span></div></div>
+<div class="rule"><div class="ic">🎭</div><div class="tx"><b>در Speak Now هر دو نقش را خودتان بگویید و ضبط کنید</b><span>و با فایل کتاب مقایسه کنید.</span></div></div>
+<div class="rule g"><div class="ic">🎙️</div><div class="tx"><b>هر ضبط با تاریخ ذخیره شود</b><span>پوشه‌ی Monologues؛ ماهی یک‌بار مقایسه. فایل روز ۶ را در ۳۶۵ و ۱۰۹۲ گوش کنید.</span></div></div>
+<div class="rule y"><div class="ic">🤖</div><div class="tx"><b>AI صبور است، انسان نیست</b><span>از روز ۲۱۲ HelloTalk؛ از فاز ۴ مصاحبه‌گر AI. اگر بعد از ماه ۲۰ فضا بود، ماهی ۲ جلسه تیوتر ارزان — تنها استثنای مجازِ پرداخت.</span></div></div>
+<div class="rule"><div class="ic">🌍</div><div class="tx"><b>از ماه ۱۵ هفته‌ای یک ویدیو با گوینده‌ی غیربومی</b><span>اروپا یعنی انگلیسیِ آلمانی، هلندی و هندی — انعطاف گوش ساخته می‌شود.</span></div></div>
+</div>
+
+<div class="kpane" data-k="مهارت‌ها">
+<div class="rule y"><div class="ic">📖</div><div class="tx"><b>قانون ۵٪ در Reading</b><span>بیش از ۵٪ واژه‌های متن را نمی‌دانید؟ سطح پایین‌تر. خواندن با دیکشنریِ دائم، خواندن نیست.</span></div></div>
+<div class="rule g"><div class="ic">🎧</div><div class="tx"><b>پروتکل سه‌مرحله‌ای شنیداری</b><span>۱) بدون متن → درصد ۲) با متن → کجا را نشنیدم ۳) بدون متن → درصد. هر دو عدد ثبت شود.</span></div></div>
+<div class="rule"><div class="ic">📊</div><div class="tx"><b>درک زیر ۴۰٪ = یک سطح عقب · بالای ۸۵٪ = جلو بپر</b><span>خجالت ندارد — تطبیق، بخشی از سیستم است.</span></div></div>
+<div class="rule"><div class="ic">🗣️</div><div class="tx"><b>بخش Can-Do کتاب‌ها را صادقانه پر کنید</b><span>این سنجش رسمی شماست، نه حلقه‌های تقلبی.</span></div></div>
+<div class="rule y"><div class="ic">✍️</div><div class="tx"><b>Writing همیشه با تصحیح AI + لاگ ۳ خطای پرتکرار</b><span>همان ۳ خطا، دریل ماه بعد را تعیین می‌کند.</span></div></div>
+<div class="rule"><div class="ic">🔤</div><div class="tx"><b>گرامر از فاز ۴ فقط رفع خطا</b><span>یونیت‌های مربوط به ۳ خطای پرتکرار لاگ — نه خواندن ترتیبی.</span></div></div>
+</div>
+
+<div class="kpane" data-k="آیلتس">
+<div class="rule r"><div class="ic">🎯</div><div class="tx"><b>هدف: General Training 7.0 — نه Academic</b><span>یعنی B2+/C1 مرزی. از A2 فقط با زبان واقعی می‌رسد، نه با تست‌زنی.</span></div></div>
+<div class="rule r"><div class="ic">🔒</div><div class="tx"><b>تا گیت D (روز ~۹۰۰) کمبریج و تستینو را باز نکنید</b><span>آزمون‌محوری زودهنگام = «A2 با شکل آیلتس». بزرگ‌ترین دشمن همین است.</span></div></div>
+<div class="rule y"><div class="ic">🔑</div><div class="tx"><b>تریگر ورود: T1+T2+T3</b><span>B2 کارکردی ضبط‌شده + تشخیصی خام L≥26/R≥26 + رایتینگ زمان‌دار ≥6.0.</span></div></div>
+<div class="rule g"><div class="ic">📚</div><div class="tx"><b>روش کمبریج: ۱۶ کالبدشکافی ← ۱۷ رایتینگ ← ۱۸ ماک کامل ← ۱۹ + دو Testino</b><span>هر کتاب یک شغل دارد. «کمبریج را حل کن» روش نیست.</span></div></div>
+<div class="rule y"><div class="ic">⚖️</div><div class="tx"><b>sit-ready، نه امیدوار-نشستن</b><span>دو ماک متوالی: L≥31/40 · R≥30/40 · دو رایتینگ 6.5-7.0 · اسپیکینگ ~7 → فقط آن‌وقت ثبت‌نام.</span></div></div>
+<div class="rule"><div class="ic">🎯</div><div class="tx"><b>ملاک، معیار است نه تقویم</b><span>اگر sit-ready نشد: فقط ضعیف‌ترین بخش، ۴ هفته‌ی دیگر. نمره‌ی ۲ سال اعتبار دارد و با پنجره‌ی اپلای هم‌راستاست.</span></div></div>
+<div class="rule r"><div class="ic">🛑</div><div class="tx"><b>دو هفته‌ی آخر: کاهش بار</b><span>فقط مرور سبک. هفته‌ی آزمون: خواب و استراحت.</span></div></div>
+</div>
+
+<div class="kpane" data-k="وقتی سخت شد">
+<div class="big">برنامه‌ای که ۳۶ ماه دوام بیاورد<br>مهم‌تر از برنامه‌ای است که ۴ ماه شدید باشد</div>
+<div class="rule"><div class="ic">1️⃣</div><div class="tx"><b>۱ روز از دست رفت</b><span>هیچ. ادامه بده. برنامه بافر دارد.</span></div></div>
+<div class="rule"><div class="ic">2️⃣</div><div class="tx"><b>۲ تا ۳ روز</b><span>فقط Anki را جبران کن (سقف ۳۰ دقیقه). بقیه فراموش.</span></div></div>
+<div class="rule y"><div class="ic">3️⃣</div><div class="tx"><b>۴ تا ۷ روز</b><span>هفته‌ی سبک: روز حداقلی × ۵، بعد برگرد به ریتم.</span></div></div>
+<div class="rule y"><div class="ic">4️⃣</div><div class="tx"><b>۱ تا ۲ هفته</b><span>در منابع عقب برو، نه دوبارکردن. ادامه از همان‌جا.</span></div></div>
+<div class="rule r"><div class="ic">5️⃣</div><div class="tx"><b>بیش از یک ماه — پروتکل بازگشت</b><span>هفته‌ی ۱ فقط Anki · ۲ + Tactics · ۳ + 4000 Words · ۴ کامل. با یک حلقه و یک EF SET دوباره بیس‌لاین بگیر.</span></div></div>
+<div class="rule g"><div class="ic">🛡️</div><div class="tx"><b>هسته‌ی تقلیل‌ناپذیر</b><span>Anki ۱۰′ + شدوئینگ ۱۰′ + مونولوگ ۵′ = ۲۵ دقیقه. پیشرفت کند می‌شود، متوقف نمی‌شود.</span></div></div>
+<div class="rule"><div class="ic">🧠</div><div class="tx"><b>بی‌انگیزگی؟ چهار قدم</b><span>۱) عدد نگاه کن نه احساس ۲) صدای ماه ۱ را گوش کن ۳) یک هفته سبک عمدی ۴) یک چیز سرگرم‌کننده. هنوز بی‌انگیزه؟ مشکل بار کل زندگی است — یک ماه روز حداقلی.</span></div></div>
+</div>
+
+<div class="kpane" data-k="حقیقت‌های سخت">
+<div class="rule r"><div class="ic">⏳</div><div class="tx"><b>حاشیه‌ی امن کم است: ~۱۳۰۰–۱۴۵۰ ساعت در ۳ سال</b><span>برای A2→B2+ کاملاً کافی است — اما فقط با پیوستگی و خروجی‌محوری، نه با ساعت ایدئال.</span></div></div>
+<div class="rule r"><div class="ic">🗣️</div><div class="tx"><b>رایج‌ترین شکست خودآموزها: Reading در B2، Speaking در A2</b><span>برای همین گفتاری از روز ۱ و هر روز در برنامه است.</span></div></div>
+<div class="rule y"><div class="ic">🏜️</div><div class="tx"><b>دشت خستگی: ماه ۴–۶ و ۹–۱۳</b><span>پیشرفت واقعی هست ولی نامحسوس. اینجا بیشترِ مردم رها می‌کنند — عدد نگاه کنید.</span></div></div>
+<div class="rule"><div class="ic">📚</div><div class="tx"><b>~۲۵ جلد کتاب دارید — بزرگ‌ترین خطر، خودِ فراوانی است</b><span>۹ منبع فعال، بقیه انبار. یکی‌داخل/یکی‌خارج فقط در ممیزی فصلی.</span></div></div>
+<div class="rule g"><div class="ic">🎯</div><div class="tx"><b>هدف پایبندی ۸۵٪ است، نه ۱۰۰٪</b><span>روز حداقلی هم «انجام‌شده» حساب می‌شود.</span></div></div>
+<div class="rule y"><div class="ic">🧪</div><div class="tx"><b>نمره، نتیجه‌ی زبان است نه ترفند</b><span>تکنیک آزمون حداکثر نیم باند می‌دهد؛ بقیه‌اش را ۳۰ ماه ورودی/خروجی واقعی می‌سازد.</span></div></div>
+<div class="rule"><div class="ic">⚖️</div><div class="tx"><b>سه ترک دیگر هم حق دارند</b><span>DE در ساعت صفر است و اولویت مهاجرت است. اگر DE هفته‌ی سختی دارد، انگلیسی یک سطح پایین می‌آید — نه صفر.</span></div></div>
+<div class="big" style="background:linear-gradient(135deg,#134e4a,#115e59);border:1px solid rgba(45,212,191,.3)">
+شما قرار نیست در ۳۶ ماه «آیلتس یاد بگیرید».<br>
+قرار است ۱۰۹۲ روز پشت‌سرهم ۷۵–۹۵ دقیقه کار کنید<br>تا در ماه ~۳۴ یک انگلیسیِ واقعی با یک نمره‌ی واقعی جمع شود.<br><br>
+<span style="font-weight:400;font-size:13px">اولی هدف است — دومی تنها چیزی است که در کنترل شماست.</span>
+</div>
+</div>
+
+</div>
+  <div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button></div>
+</section>
+<section class="view" id="view-milestones">
+  <div class="phase-top"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button>
+    <div class="phase-title">🏁 نقاط عطف مسیر</div>
+    <div class="phase-range">روی هر نقطه عطف بزنید تا به همان روز نقشه بروید</div></div>
+  <div class="month-pane" id="milelist"></div>
+  <div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به صفحه اصلی</button></div>
+</section>
+</div>
+
+<footer class="footer">مسیر ۳۶ ماهه انگلیسی و آیلتس · ۱۰۹۲ روز · تیک‌ها به‌صورت خودکار ذخیره می‌شوند</footer>
+
+<button class="totop" id="totop" onclick="window.scrollTo({top:0,behavior:'smooth'})"></button>
+
+<script>
+/* ═══════════════ داده‌ساز مسیر آیلتس — ۱۰۹۲ روز، برگرفته از سیستم تأییدشده‌ی ۶ بخشی ═══════════════ */
+var TOTALD=1092;
+var PH=[["F1","راه‌اندازی موتور","A1/A2 → A2+",1,180,1,26,1,6],
+["F2","ساخت پایه واقعی","A2+ → B1-",181,420,26,60,7,14],
+["F3","بهره‌برداری + انگلیسی حرفه‌ای","B1- → B2-",421,720,61,103,15,24],
+["F4","پخت B2 و مصاحبه","B2- → B2 جامد",721,900,103,129,25,30],
+["F5","آیلتس GT — روش کمبریج","B2+ آزمون‌محور",901,1050,129,150,31,35],
+["F6","اسپرینت اپلای + بافر","تثبیت زیر فشار",1051,1092,151,156,36,36]];
+var PHDOC={
+F1:'مونولوگ ۳ دقیقه‌ای با ≤۵ مکث طولانی · مکالمه‌ی ۱۰ دقیقه‌ای AI زنده می‌ماند · متن Intro با ~۱۱۵wpm و درک ≥۷۰٪ · پاراگراف ۸-۱۰ جمله‌ای با ≤۵ خطا در ۱۰۰ کلمه · ~۱۵۰۰ کارت با نگهداشت ≥۸۵٪',
+F2:'مکالمه ۷-۱۰ دقیقه روی موضوع ناآشنا · بازگویی ۱ دقیقه‌ای شنیدار ۳ دقیقه‌ای · متن B1 با ~۱۶۰wpm · ایمیل ۱۲۰-۱۵۰ کلمه با ≤۴ خطا · ~۳۰۰۰ کارت · آبی شروع شد · HelloTalk از ماه ۸',
+F3:'مکالمه ۱۵ دقیقه‌ای درباره‌ی هرچیز · ۲ دقیقه بداهه · توضیح ساده‌ی یک مفهوم فنی · مقاله‌ی واقعی ~۱۹۰wpm · گزارش ۲۰۰-۲۵۰ کلمه با ≤۲.۵ خطا · ~۵۰۰۰ کارت + ۳۰۰ واژه‌ی DE · نردبان حرفه‌ای کامل · تشخیصی GT خام ~۶.۰',
+F4:'B2 نمایشی زیر فشار · ماک مصاحبه ۴۵ دقیقه‌ای (شفاف‌سازی، فکر بلند، بازیابی) · ۲۰۰+ کلمه در ۲۵ دقیقه با ≤۲ خطا · تشخیصی‌های زمان‌دار ۶.۰-۶.۵ → چراغ سبز آیلتس',
+F5:'دو ماک متوالی C18/C19: L≥31/40 · R(GT)≥30/40 · دو رایتینگ 6.5-7.0 · یک ماک اسپیکینگ ~7 → ثبت‌نام. اگر نشد: فقط ضعیف‌ترین بخش، ۴ هفته‌ی دیگر — استاندارد ثابت، تاریخ منعطف',
+F6:'رزومه/لینکدین انگلیسی · درخواست‌ها و مصاحبه‌های واقعی · نگهداری سبک · این فاز بافرِ جبران گیت‌های عقب‌افتاده نیز هست'};
+function wkOf(n){return((n-1)/7|0)+1}
+function dowi(n){return(n-1)%7}
+function monOf(n){return Math.min(36,((n-1)/30|0)+1)}
+function cnt(n,add){return((n+add)/7|0)}
+function fd(x){return String(x).replace(/[0-9]/g,function(c){return '۰۱۲۳۴۵۶۷۸۹'[c]})}
+function IT(a,b,c,m,o){return[a,b,c,fd(m)+' دقیقه',o]}
+var MS={};
+function addMS(n,t){if(!MS[n])MS[n]=t}
+(function(){
+var m,d,b,w;
+for(m=3;m<=36;m+=3){b=(m-1)*30;d=b+1;while((d-1)%7!==6)d++;addMS(d,'🧪 EF SET رایگان (ماه '+fd(m)+') — لنگر خارجی سطح؛ عدد را در داشبورد ثبت کن')}
+for(m=2;m<=36;m++){b=(m-1)*30;d=b+1;while((d-1)%7!==5)d++;addMS(d,'📦 آرشیو ماهانه: ۳ پرامپت ثابت (روزم/کارم/برنامه‌ی تعطیلاتم) را بازضبط کن؛ مکث‌ها را با ماه قبل مقایسه کن')}
+for(w=13;w<=156;w+=13){addMS((w-1)*7+6,'📋 سنجش فصلی: ممیزی مایل‌استون‌ها + ممیزی استک (یکی‌داخل/یکی‌خارج)')}
+var M={1:'🔧 روز راه‌اندازی: Anki + دو دک + پوشه‌ی Monologues + تست Copilot و Gemini — فقط همین امروز',
+6:'🎙️ بیس‌لاین: مونولوگ ۳ دقیقه + ۳ پرامپت آرشیو — این صدا را روز ۳۶۵ و ۱۰۹۲ گوش می‌کنی',
+16:'🤖 شروع AI voice (هفته ۳) — هدف فقط دوام ۱۰ دقیقه‌ی واقعی، نه دقت',
+84:'🚩 مینی‌گیت ماشین (هفته ۱۲): پایبندی ≥۸۵٪ · نگهداشت Anki ≥۸۵٪ · ری‌تست سرد تاکتیکس ≥۸۰٪ · مکث‌ها < بیس‌لاین · خطا ≤۵ در ۱۰۰ کلمه',
+106:'🔓 باز شدن 6 Minute English در چرخش شنیداری (ماه ۴)',
+180:'🚩 گیت A — خروج فاز ۱: همه‌ی معیارهای «موتور» را صادقانه بسنج',
+212:'🤝 اولین تلاش HelloTalk (ماه ۸) — همین یک مکالمه‌ی متنی کافی است',
+241:'🏜️ دشت خستگی (ماه ۹-۱۳): پیشرفت واقعی است ولی نامحسوس — به عدد نگاه کن، نه احساس',
+420:'🚩 گیت B — B1− واقعی: مکالمه ۷-۱۰ دقیقه موضوع ناآشنا · ~۳۰۰۰ کارت · خطا ≤۴ در ۱۰۰ کلمه',
+421:'🪜 شروع نردبان حرفه‌ای (چهارشنبه‌های زوج) + دک واژگان DE از مطالعات خودت — یک تلاش، دو مسیر',
+540:'🛠️ رانگ ۳: پروژه‌های واقعی DEات را به انگلیسی توضیح بده (ضبط کن)',
+720:'🚩 گیت C — B2− + تشخیصی GT بدون آمادگی از C16: L≥26 و R≥26 (≈۶.۰ خام)',
+721:'🎤 شروع چرخه‌ی مصاحبه‌های شبیه‌سازی‌شده (AI → انسان واقعی)',
+840:'🔎 پیش‌ارزیابی T1 (یک ماه قبل از گیت D): مکالمه ۱۵ دقیقه‌ای — «در یک تماس کاری دوام می‌آورد؟»',
+900:'🚩 گیت D — تریگر آیلتس: T1 یعنی B2 کارکردی + T2 تشخیصی + T3 رایتینگ ≥6.0 → فردا کمبریج باز می‌شود',
+901:'📕 قفل برداشته شد: Cambridge 16 — روش کالبدشکافی مهارت‌به‌مهارت',
+943:'📗 Cambridge 17 — متد رایتینگ (بودجه‌ی زمانی + ارزیابی تک‌معیاره + بازنویسی فقط ضعیف‌ترین پاراگراف)',
+981:'📘 Cambridge 18 — ماک‌های کامل هفتگی زیر زمان واقعی',
+1009:'📙 Cambridge 19 — ماک‌های نهایی زیر زمان واقعی',
+1015:'🎟️ اولین Testino — کالیبراسیون خارجی',
+1030:'🚩 تصمیم sit-ready: دو ماک متوالی با L≥31 · R≥30 · W 6.5-7.0 · S~7 → ثبت‌نام کن',
+1036:'🎟️ Testino دوم — تأیید کالیبراسیون قبل از ثبت‌نام',
+1044:'🎯 روز آزمون آیلتس GT — آماده نشستی، نه امیدوار',
+1051:'🚀 شروع اسپرینت اپلای: رزومه/لینکدین انگلیسی، درخواست‌ها، مصاحبه‌های واقعی',
+1092:'🏁 روز ۱۰۹۲ — صدای روز ۶ را پخش کن. از A1 تا اینجا.'};
+for(var k in M)addMS(+k,M[k]);
+})();
+function eewOn(w){return w<=2||3*w-3<=120}
+function eewT(u){return '4000 EEW جلد '+fd(Math.min(4,Math.ceil(u/30)))+' — یونیت '+fd(((u-1)%30)+1)}
+function timsT(w){var e=((w-1)%20)*2+1;return 'ویدیوهای '+fd(e)+' و '+fd(e+1)+' (سیکل '+fd(((w-1)/20|0)+1)+')'}
+function ladderT(m){var L=['معرفی حرفه‌ای ۶۰-۹۰ ثانیه','شرح پیشینه و شغل فعلی','پروژه + معماری (پروژه‌های واقعی DE خودت)','مقایسه‌ی فناوری‌ها','توضیح trade-off ها','سوالات رفتاری با STAR','فکر بلند + سوال شفاف‌کننده','«نمی‌دانمِ» حرفه‌ای + بازیابی','ماک مصاحبه‌ی کامل'];return L[Math.max(0,Math.min(8,m-16))]}
+function voaI(n){var v;if(n<=420)v=['VOA Learning English','یک قسمت: بار سرد + بار با متن → تا ۵ کارت'];
+else if(n<=720)v=['چرخش پادکست','6 Minute English / TED-Ed / VOA — یک قسمت با متن'];
+else if(n<=900)v=['NPR Short Wave / Science Vs','یک قسمت با متن — لهجه‌های متنوع'];
+else v=['پادکست انتخابی','یک قسمت برای گرم نگه‌داشتن گوش'];
+return IT('شنیداری سبک',v[0],v[1],10,'۳ جمله خلاصه‌ی شفاهی بدون متن')}
+function ankI(m,e){return IT('واژگان','Anki','مرور صف'+(e?' + '+e:''),m,'صف صفر · دقت ۸۵-۹۰٪')}
+
+function week1(n){
+var it=[];
+if(n===1){it=[IT('راه‌اندازی','Anki + ابزارها','نصب AnkiDroid + حساب AnkiWeb + دک‌های 01_EEW و 02_Mined + پوشه‌ی English/Monologues + تست Copilot و Gemini',25,'ابزارها آماده شد'),
+IT('شنیداری','Tactics Basic','یونیت ۱: گوش → پاسخ → گوش با متن',25,'پاسخ‌ها چک شد'),
+IT('تلفظ','شدوئینگ','۶۰-۹۰ ثانیه از یونیت ۱ — ضبط',10,'اولین فایل شدو'),
+IT('واژگان','Anki','۱۰ کارت اول از واژگان یونیت ۱',20,'۱۰ کارت ساخته شد'),
+voaI(1)];}
+else if(n===2){it=[IT('گفتاری','Speak Now 1','یونیت ۱: واژه‌ها → دیالوگ → تمرین‌های کتاب',25,'تمرین‌ها انجام شد'),
+IT('گفتاری','ضبط دو نقش','هر دو نقش را ضبط کن → مقایسه با فایل کتاب → یک‌بار بازضبط',20,'۲ فایل + ۱ بازضبط'),
+ankI(20),voaI(2)];}
+else if(n===3){it=[IT('گرامر','Essential Grammar (قرمز)','داگنوستیک Study Guide: آزمون خودسنجی نیمه‌ی اول کتاب → لیست یونیت‌های لازم (انتظار: ۵۰-۷۵)',50,'لیست فیلترشده نوشته شد'),
+ankI(20),voaI(3)];}
+else if(n===4){it=[IT('نوشتن','Inside Writing Intro','نیمه‌ی اول یونیت ۱: الگو را مطالعه کن → پیش‌نویس پاراگراف معرفی خودت (شغل، شهر، روتین، چرا انگلیسی)',30,'۸-۱۰ جمله وجود دارد'),
+IT('نوشتن','تصحیح AI','«Correct this. List my 3 most frequent error types» → کارت خطا',15,'تصحیح + تا ۳ کارت'),
+ankI(15),voaI(4)];}
+else if(n===5){it=[IT('خواندن','Inside Reading Intro','یونیت ۱: خواندن تایم‌دار (دقیقه را ثبت کن) → تمرین‌ها',30,'wpm ثبت شد'),
+IT('خواندن','خلاصه','کتاب بسته → خلاصه‌ی ۴-۵ جمله‌ای',10,'خلاصه بدون نگاه به متن'),
+ankI(20),voaI(5)];}
+else if(n===6){it=[IT('مرور','بازخوانی','تمرین‌های خطادار هفته (حداکثر ۲ تلاش)',15,'خطاها بسته شد'),
+IT('تلفظ','بازضبط','ضعیف‌ترین شدوئینگ هفته',10,'فایل بهتر شد'),
+IT('گفتاری','مونولوگ + بیس‌لاین','۳ دقیقه «هفته‌ی اولم» + ۳ پرامپت آرشیو: روزم/کارم/برنامه‌ی تعطیلاتم — مکث‌ها را بشمار',15,'۴ فایل در Monologues/W1'),
+ankI(20)];}
+else{it=[IT('واژگان',eewT(1)+' — عمیق','۲۰ واژه + داستان یونیت → ۲۰ کارت جمله‌محور',30,'۲۰ کارت'),
+IT('تلفظ',"Tim's Pronunciation Workshop",timsT(1)+': یادگیری → دریل ۳ دقیقه → ضبط ۵ جمله',20,'فایل ضبط'),
+IT('خواندن گسترده','News in Levels','دو مقاله‌ی سطح ۱/۲ + ۵ واژه',15,'۵ کارت Mined'),
+ankI(15),
+IT('برنامه‌ریزی','چک‌لیست هفته','هفته را تیک بزن؛ تمرکز هفته‌ی بعد را انتخاب کن',5,'۷/۷ روز')];}
+return{w:1,t:n===6?'rev':(n===7?'long':'learn'),ms:MS[n],it:it}}
+
+function p14(n){
+var w=wkOf(n),dw=dowi(n),mo=monOf(n),it=[],c,u,t='learn';
+if(dw===6)t='long';else if(dw===5)t='rev';
+if(dw===0){
+if(n<=180){c=cnt(n,6);if(c<=24)it.push(IT('شنیداری','Tactics Basic','یونیت '+fd(c)+': گوش → پاسخ → گوش با متن',30,'پاسخ‌ها + درصد سرد'));else it.push(IT('شنیداری','Tactics Basic','مرور سرد دو یونیت ضعیف هفته',30,'درصد سرد ثبت شد'));}
+else if(n<=420){c=cnt(n,6)-26;if(c<=24)it.push(IT('شنیداری','Tactics Developing','یونیت '+fd(c)+': گوش → پاسخ → گوش با متن',30,'پاسخ‌ها + درصد سرد'));else it.push(IT('شنیداری','Tactics Developing','مرور + آماده‌سازی گذار به پادکست واقعی (ماه ۱۵)',30,'درصد سرد ثبت شد'));}
+else if(n<=720){it.push(IT('شنیداری',(w%2?'6 Minute English':'TED-Ed'),'یک قسمت کامل با متن: بار سرد → با متن → بار دوم سرد',35,'دو درصد + ۳ کارت'));}
+else{it.push(IT('شنیداری','NPR Short Wave / Science Vs','یک قسمت با متن — تمرکز روی لهجه‌های متنوع (اروپایی/هندی)',35,'دو درصد + ۳ کارت'));}
+it.push(IT('تلفظ','شدوئینگ','۶۰-۹۰ ثانیه از صدای امروز — ضبط و مقایسه',10,'فایل شدو'));
+it.push(ankI(20));it.push(voaI(n));
+}else if(dw===1){
+if(n<=180){c=cnt(n,5);if(c<=14)it.push(IT('گفتاری','Speak Now 1','یونیت '+fd(c)+': واژه‌ها → دیالوگ → تمرین‌ها → هر دو نقش ضبط → مقایسه → یک‌بار بازضبط',40,'دو فایل + یک بازضبط'));else it.push(IT('گفتاری','Speak Now 1','تثبیت: بازضبط ضعیف‌ترین دیالوگ‌ها + مونولوگ ۲ دقیقه‌ای',40,'فایل‌ها به‌روز شد'));}
+else if(n<=420){c=cnt(n,5)-26;if(c<=14)it.push(IT('گفتاری','Speak Now 2','یونیت '+fd(c)+': هر دو نقش ضبط + مقایسه با فایل کتاب',40,'دو فایل'));else it.push(IT('گفتاری','Speak Now 2','تثبیت + مکالمه‌ی آزاد AI ۱۵ دقیقه',40,'فایل مکالمه'));}
+else if(n<=560){c=cnt(n,5)-60;if(c<=14)it.push(IT('گفتاری','Speak Now 3','یونیت '+fd(c)+': هر دو نقش ضبط + مقایسه',40,'دو فایل'));else it.push(IT('گفتاری','مکالمه‌ی آزاد','موضوع ناآشنا + توضیح یک مفهوم ساده',40,'ضبط ۲ دقیقه‌ای'));}
+else if(n<=720){it.push(IT('گفتاری','تولید آزاد','توضیح ۲ دقیقه‌ای یک پروژه/مفهوم فنی به زبان ساده + مکالمه‌ی آزاد',40,'ضبط + یک بهبود'));}
+else{it.push(IT('گفتاری','نردبان مصاحبه',ladderT(Math.min(24,mo))+' — آماده‌سازی + ضبط + گوش‌دادن + یک بهبود',40,'فایل + یادداشت'));}
+if(n>=212){it.push(IT('گفتاری','HelloTalk / AI voice','۱۵ دقیقه مکالمه‌ی واقعی',15,'۱۵ دقیقه سخن گفته شد'));it.push(ankI(10));}
+else if(n>=16){it.push(ankI(15));it.push(IT('گفتاری','AI voice','بازگویی درس امروز یا موضوع آزاد — هدف: دوام، نه دقت',10,'۱۰ دقیقه + حداقل ۲ سوال'));}
+else{it.push(ankI(25));}
+it.push(voaI(n));
+}else if(dw===2){
+if(n<=180){c=(cnt(n,4)-1)*2+1;if(c<=60)it.push(IT('گرامر','Essential Grammar (قرمز)','یونیت‌های '+fd(c)+' و '+fd(c+1)+' از لیست فیلترشده: صفحه‌ی چپ → بپوشان → تمرین → ۵ جمله‌ی خودساخته',40,'هر خطا → کارت خطا'));else it.push(IT('گرامر','قرمز — مرور','یونیت‌های خطادار از لاگ',40,'دریل شد'));}
+else if(n<=560){c=(cnt(n,4)-26)*2+1;if(c<=100)it.push(IT('گرامر','Intermediate Grammar (آبی)','یونیت‌های '+fd(c)+' و '+fd(c+1)+': همان پروتکل قرمز',40,'هر خطا → کارت خطا'));else it.push(IT('گرامر','رفع خطا','۳ الگوی خطای پرتکرار ماه → دریل',40,'لاگ به‌روز شد'));}
+else{it.push(IT('گرامر','رفع خطا','۳ الگوی پرتکرار → دریل شفاهی و نوشتاری',40,'لاگ به‌روز شد'));}
+it.push(ankI(20));it.push(voaI(n));
+}else if(dw===3){
+var half=(cnt(n,3)%2)?'نیمه‌ی اول':'نیمه‌ی دوم';
+if(n<=180){u=Math.ceil(cnt(n,3)/2);if(u<=10)it.push(IT('نوشتن','Inside Writing Intro',half+' یونیت '+fd(u)+' → پیش‌نویس + تصحیح AI («۳ خطای پرتکرارم؟») → کارت خطا',40,'پاراگراف + تا ۳ کارت'));else it.push(IT('نوشتن','پاراگراف آزاد','۸-۱۲ جمله درباره‌ی روز/هفته + تصحیح AI',40,'پاراگراف + کارت'));}
+else if(n<=420){u=Math.ceil((cnt(n,3)-26)/2);if(u<=12)it.push(IT('نوشتن','Inside Writing 1',half+' یونیت '+fd(u)+' → پیش‌نویس + تصحیح AI',40,'پاراگراف + کارت'));else it.push(IT('نوشتن','ایمیل آزاد','۱۲۰-۱۵۰ کلمه (درخواست/عذرخواهی/گزارش کوتاه) + تصحیح AI',40,'ایمیل + کارت'));}
+else if(n<=630){u=Math.ceil((cnt(n,3)-60)/2);if(u<=12)it.push(IT('نوشتن','Inside Writing 2',half+' یونیت '+fd(u)+' → پیش‌نویس + تصحیح AI',40,'متن + کارت'));else it.push(IT('نوشتن','گزارش کوتاه','۲۰۰-۲۵۰ کلمه ساختارمند + تصحیح AI',40,'گزارش + کارت'));}
+else{it.push(IT('نوشتن','زمان‌دار','۲۰۰+ کلمه در ۲۵ دقیقه (ایمیل/گزارش) + تصحیح AI',40,'≤۲.۵ خطا در ۱۰۰ کلمه'));}
+if(n>=16){it.push(ankI(15));it.push(IT('گفتاری','AI voice','۱۰ دقیقه — موضوع آزاد یا بحث روز',10,'۱۰ دقیقه'));}
+else{it.push(ankI(25));}
+it.push(voaI(n));
+}else if(dw===4){
+if(n<=420){c=(n<=180)?cnt(n,2):(cnt(n,2)-26);var cap=(n<=180)?10:12;var rr=(n<=180)?'Inside Reading Intro':'Inside Reading 1';
+if(c<=cap)it.push(IT('خواندن',rr,'یونیت '+fd(c)+' تایم‌دار (wpm ثبت) → تمرین‌ها → خلاصه‌ی کتاب‌بسته ۴-۵ جمله',35,'wpm + خلاصه'));else it.push(IT('خواندن','News in Levels','یک مقاله + خلاصه',35,'خلاصه'));}
+else if(n<=720){if(cnt(n,2)%2===1){c=cnt(n,2)-60;if(c<=12)it.push(IT('خواندن','Inside Reading 2','یونیت '+fd(c)+' تایم‌دار + خلاصه',35,'wpm + خلاصه'));else it.push(IT('خواندن','مقاله‌ی واقعی','یک مقاله + خلاصه',35,'wpm + خلاصه'));}else it.push(IT('حرفه‌ای','نردبان انگلیسی حرفه‌ای',ladderT(mo)+' — آماده‌سازی + ضبط',35,'فایل + یادداشت'));}
+else{it.push(IT('حرفه‌ای','متون فنی و آگهی شغلی','خواندن داکیومنت فنی/آگهی DE + خلاصه — یا رانگ بعدی نردبان',35,'خلاصه'));}
+if(w>=3&&eewOn(w)){it.push(IT('واژگان','4000 EEW — سبک',eewT(3*w-3)+': واژه‌ها + داستان',20,'۲۰ کارت'));}
+else{it.push(IT('واژگان','Mined','واژه‌های جدید هفته → کارت',15,'۳-۵ کارت'));}
+it.push(ankI(15));it.push(voaI(n));
+}else if(dw===5){
+if(w%13===0)it.push(IT('سنجش','سنجش فصلی (۶۰ دقیقه)','ممیزی مایل‌استون‌ها + ممیزی استک + تصمیم گیت/فاز',60,'تصمیم ثبت‌شده'));
+else if(w%2===0)it.push(IT('سنجش','حلقه‌ی ۱۴روزه','شنیداری سرد ≥۷۰٪ · Anki ≥۸۰٪ · ۱۰ جمله با ۵ ساختار ≥۶۰٪ بی‌خطا · مونولوگ ≤۸ مکث',40,'PASS/FAIL + یک اصلاح برای ۲ هفته'));
+else it.push(IT('مرور','مرور آزاد','تمرین‌های خطادار هفته (حداکثر ۲ تلاش)',20,'خطاها بسته شد'));
+it.push(IT('تلفظ','بازضبط','ضعیف‌ترین ۶۰ ثانیه‌ی شدو هفته',10,'فایل بهتر شد'));
+it.push(IT('گفتاری','مونولوگ هفتگی','موضوع از لیست ۲۰تایی — بدون توقف تا هدف فاز',5,'فایل تاریخ‌دار'));
+if(n>=181)it.push(IT('گفتاری','AI voice','۱۰ دقیقه تعاملی',10,'۱۰ دقیقه'));
+it.push(ankI(20));
+}else{
+if((n-(mo-1)*30)<=7)it.push(IT('سنجش','اعداد ماهانه','wpm · خطا/۱۰۰ کلمه · مکث‌های مونولوگ · پایبندی · کارت بالغ',45,'داشبورد ماهانه پر شد'));
+if(n<=420){
+if(w===2){it.push(IT('واژگان',eewT(2)+' — عمیق','۲۰ واژه + داستان → کارت‌ها',30,'۲۰ کارت'));it.push(IT('واژگان',eewT(3)+' — تمرینی','تمرین‌ها + مرور کارت‌ها',25,'تمرین‌ها انجام شد'));}
+else if(eewOn(w)){it.push(IT('واژگان',eewT(3*w-5)+' — عمیق','۲۰ واژه + داستان → کارت‌ها',30,'۲۰ کارت'));it.push(IT('واژگان',eewT(3*w-4)+' — تمرینی','تمرین‌ها + مرور کارت‌های هفته',25,'تمرین‌ها انجام شد'));}
+else{it.push(IT('واژگان','Mined + بازیابی فعال','جمله‌سازی شفاهی از ۲۰ کارت قدیمی',55,'۲۰ جمله'));}
+it.push(IT('تلفظ',"Tim's Pronunciation Workshop",timsT(w)+': یادگیری → دریل ۳ دقیقه → ضبط ۵ جمله',20,'فایل + خودارزیابی'));
+it.push(IT('خواندن گسترده','News in Levels','دو مقاله + ۵ واژه',15,'۵ کارت'));
+}else if(n<=720){
+it.push(IT('واژگان','دک‌ها','مرور عمیق EEW/Mined + جمله‌سازی شفاهی',30,'صف صفر'));
+it.push(IT('تلفظ',"Tim's Workshop",timsT(w)+' + دریل ضبط',20,'فایل'));
+it.push(IT('خواندن گسترده','مقاله/داستان کوتاه','+ ۵ واژه',15,'۵ کارت'));
+if(n>=421)it.push(IT('حرفه‌ای','واژگان DE','از مطالعات DE خودت → کارت با تگ de',10,'۳-۵ کارت'));
+}else{
+it.push(IT('حرفه‌ای','ماک مصاحبه‌ی AI','۳۰ دقیقه مصاحبه‌ی فنی/HR + گوش‌دادن و تحلیل',45,'۳ ضعف + ۳ قوت'));
+it.push(IT('واژگان','دک‌ها + تگ de','مرور + کارت‌های جدید',30,'صف صفر'));
+it.push(IT('خواندن گسترده','متن تخصصی','۱۵ دقیقه',15,'خلاصه'));
+}
+it.push(ankI(15));
+it.push(IT('برنامه‌ریزی','آیین جمعه','چک‌لیست هفته + یک تمرکز برای هفته‌ی بعد',5,'تمرکز مشخص شد'));
+}
+return{w:w,t:t,ms:MS[n],it:it}}
+
+function p5(n){
+var w=wkOf(n),dw=dowi(n),mo=monOf(n),wp=w-128,it=[],t='learn',bk;
+if(n===1044)return{w:w,t:t,ms:MS[n],it:[IT('آزمون','IELTS General Training','امروز فقط آزمون — خواب کافی، پاسپورت، مدیریت انرژی',180,'نمره‌ی واقعی'),ankI(15,'مرور سبک')]};
+if(n>=1038&&n<1044)return{w:w,t:'rev',ms:MS[n],it:[ankI(20),IT('مرور','کاهش بار','فقط مرور سبک کارت‌ها و فایل‌های قدیمی — استراحت بخشی از دوز است',20,'سبک و آماده'),voaI(n)]};
+if(dw===6)t='long';else if(dw===5)t='rev';
+bk=wp<=6?'Cambridge 16':(wp<=12?'Cambridge 17':(wp<=16?'Cambridge 18':'Cambridge 19'));
+if(dw===0){
+if(wp<=6)it.push(IT('شنیداری',bk,'یک بخش Listening: پیش از پخش نوع کلمه را پیش‌بینی کن (عدد؟ نام؟ فعل؟) → پخش → تحلیل ترنسکریپت خطا به خطا',40,'درصد + کارت برای هر خطا'));
+else if(wp<=12)it.push(IT('خواندن',bk,'یک پاساژ GT با سقف ۲۰ دقیقه + تحلیل نوع خطا',45,'زمان/دقت ثبت شد'));
+else it.push(IT('سنجش','تحلیل ماک','ماک/Testino دیروز بخش‌به‌بخش: ۳ الگوی خطا',40,'۳ الگو ثبت شد'));
+if(n===1030)it.push(IT('سنجش','تصمیم sit-ready','دو ماک متوالی: L≥31 · R≥30 · W 6.5-7.0 · S~7 → ثبت‌نام',20,'ثبت‌نام یا ۴ هفته‌ی دیگر'));
+it.push(IT('تلفظ','شدوئینگ','۶۰-۹۰ ثانیه از ترنسکریپت امروز',10,'فایل'));
+it.push(ankI(20));it.push(voaI(n));
+}else if(dw===1){
+if(wp<=6)it.push(IT('گفتاری',bk,'اسپیکینگ Part 1/2/3 با پرامپت‌های کتاب: ضبط → مطالعه‌ی دسکریپتور → بازضبط ×۲',45,'۲ نسخه + یک نکته'));
+else if(wp<=12)it.push(IT('رایتینگ',bk,'Task 2 با بودجه‌ی 10-25-5 → ارزیابی تک‌معیاره (TA/TR→CC→LR→GRA) → بازنویسی فقط ضعیف‌ترین پاراگراف',45,'نسخه‌ی اصلاح‌شده'));
+else it.push(IT('گفتاری','ماک اسپیکینگ','۱۵ دقیقه شرایط واقعی + خودارزیابی دسکریپتوری',40,'~7 چک شد'));
+it.push(ankI(15));
+if(n>=212)it.push(IT('گفتاری','HelloTalk / AI','۱۵ دقیقه واقعی',15,'۱۵ دقیقه'));else it.push(IT('گفتاری','AI voice','۱۰ دقیقه',10,'۱۰ دقیقه'));
+}else if(dw===2){
+if(wp<=6)it.push(IT('خواندن',bk,'GT Reading: یک پاساژ با سقف ۲۰ دقیقه',40,'زمان/دقت'));
+else if(wp<=12)it.push(IT('سنجش','نیمه‌ماک L+R','زمان‌دار (هفته‌های زوج) / رفع خطا (فرد)',45,'دو درصد'));
+else it.push(IT('واژگان','دک خطاها','مرور کارت‌های خطای ماک‌ها',40,'صف صفر'));
+it.push(ankI(20));it.push(voaI(n));
+}else if(dw===3){
+it.push(IT('رایتینگ',bk,(w%2?'Task 1 نامه — 5-13-2':'Task 2 مقاله — 10-25-5')+' + ارزیابی AI با دسکریپتورها',40,'یک پاراگراف بازنویسی شد'));
+it.push(ankI(15));it.push(IT('گفتاری','AI voice','۱۰ دقیقه سبک — تخلیه‌ی استرس',10,'۱۰ دقیقه'));it.push(voaI(n));
+}else if(dw===4){
+it.push(IT('مرور','نگهدارنده','شنیداری/خواندن سبک + مرور دک‌ها',30,'صف صفر'));
+it.push(IT('خواندن گسترده','مقاله','۱۵ دقیقه',15,'خلاصه'));
+it.push(ankI(15));
+}else if(dw===5){
+if(w%13===0)it.push(IT('سنجش','سنجش فصلی (۶۰ دقیقه)','ممیزی مایل‌استون + ممیزی استک + وضعیت فاز آیلتس',60,'تصمیم ثبت‌شده'));
+else if(wp%2===0&&wp<=12)it.push(IT('سنجش','نیمه‌ماک L+R','زمان‌دار + تحلیل',50,'دو درصد + یک اصلاح'));
+else it.push(IT('مرور','تحلیل خطا + دسکریپتورها','مرور ۴ معیار رایتینگ و اسپیکینگ',30,'یادداشت'));
+it.push(IT('گفتاری','مونولوگ','۵ دقیقه موضوع ناآشنا',5,'فایل'));
+it.push(ankI(20));
+}else{
+if((n-(mo-1)*30)<=7)it.push(IT('سنجش','اعداد ماهانه','متریک‌های ماه + مقایسه با هدف فاز',45,'داشبورد'));
+if(n===1015||n===1036)it.push(IT('سنجش','Testino','شبیه‌ساز نمره‌ده کامل — کالیبراسیون خارجی',120,'نمره‌ی خارجی'));
+else if(wp>=13)it.push(IT('سنجش',bk,'ماک کامل زمان‌دار — شرایط آزمون، بدون توقف',165,'چهار نمره‌ی خام'));
+else it.push(IT('سنجش','ماک-تحلیل','جمع‌بندی هفته + مرور دسکریپتورها',60,'یادداشت'));
+it.push(ankI(15));
+it.push(IT('برنامه‌ریزی','آیین جمعه','چک‌لیست + تمرکز',5,'تمرکز مشخص'));
+}
+return{w:w,t:t,ms:MS[n],it:it}}
+
+function p6(n){
+var w=wkOf(n),dw=dowi(n),mo=monOf(n),it=[],t='learn';
+if(dw===5){t='rev';
+if(w%13===0)it.push(IT('سنجش','سنجش فصلی (۶۰ دقیقه)','ممیزی نهایی + جمع‌بندی وضعیت اپلای',60,'تصمیم ثبت‌شده'));
+else it.push(IT('مرور','مرور آزاد','خطاهای هفته + مونولوگ',30,'فایل'));
+it.push(ankI(20));
+return{w:w,t:t,ms:MS[n],it:it}}
+if(dw===6){t='long';
+if((n-1050)<=7)it.push(IT('سنجش','اعداد ماهانه','آخرین داشبورد رسمی مسیر',45,'ثبت نهایی'));
+it.push(IT('اپلای','درخواست‌ها','۲ درخواست باکیفیت + کاورلتر سفارشی',60,'۲ ارسال'));
+it.push(IT('خواندن گسترده','متن تخصصی/آگهی','۱۵ دقیقه',15,'خلاصه'));
+it.push(ankI(15));
+it.push(IT('برنامه‌ریزی','آیین جمعه','چک‌لیست + تمرکز',5,'تمرکز مشخص'));
+return{w:w,t:t,ms:MS[n],it:it}}
+if(dw===0){it.push(IT('شنیداری','پادکست انتخابی','یک قسمت + شدوئینگ',30,'فایل شدو'));it.push(ankI(20));it.push(voaI(n));}
+else if(dw===1){it.push(IT('مصاحبه','شبیه‌سازی یا واقعی','۳۰ دقیقه فنی/HR + تحلیل',30,'۳ نکته'));it.push(ankI(15));it.push(IT('گفتاری','AI / HelloTalk','۱۰ دقیقه',10,'۱۰ دقیقه'));}
+else if(dw===2){it.push(IT('مرور','لاگ خطا','۳ الگوی پرتکرار → دریل',30,'لاگ به‌روز'));it.push(ankI(20));it.push(voaI(n));}
+else if(dw===3){it.push(IT('نوشتن','ایمیل/کاورلتر','یک متن حرفه‌ای + تصحیح AI',30,'نسخه‌ی نهایی'));it.push(ankI(15));it.push(voaI(n));}
+else{it.push(IT('خواندن','داکیومنت فنی/آگهی','۳۰ دقیقه + خلاصه',30,'خلاصه'));it.push(ankI(15));}
+if(n===1092)it=[IT('جشن','روز ۱۰۹۲','صدای روز ۶ را پخش کن — از A1 تا اینجا. بعدش: زندگی و کار در اروپا',30,'🏆'),ankI(20)];
+return{w:w,t:t,ms:MS[n],it:it}}
+
+function buildDay(n){
+var d;
+if(n<=7)d=week1(n);
+else if(n>=901&&n<=1050)d=p5(n);
+else if(n>=1051)d=p6(n);
+else d=p14(n);
+if(n===180||n===420||n===720||n===900){var g={180:'A',420:'B',720:'C',900:'D'}[n];d.it.push(IT('سنجش','🚩 گیت '+g,'معیارهای خروج فاز را صادقانه بسنج (فایل نقشه: Part 2)',30,'عبور / تمدید — استاندارد ثابت، تاریخ منعطف'));}
+return d}
+var D=[];
+for(var nn=1;nn<=TOTALD;nn++){var dd=buildDay(nn);dd.n=nn;D.push(dd)}
+</script>
+
+<script>
+/* ═══════════════ مسیر TOEFL — معماری نقشه راه ═══════════════ */
+const FAM=["فروردین","اردیبهشت","خرداد","تیر","مرداد","شهریور","مهر","آبان","آذر","دی","بهمن","اسفند"];
+const DOW=["شنبه","یکشنبه","دوشنبه","سه‌شنبه","چهارشنبه","پنج‌شنبه","جمعه"];
+const GM=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const PN={F1:'۱',F2:'۲',F3:'۳',F4:'۴',F5:'۵',F6:'۶'};
+const RES=[
+["🃏 واژگان","4000 EEW + Anki",[["جلد ۱","",1,77],["جلد ۲","",78,147],["جلد ۳","",148,217],["جلد ۴","",218,287],["پس از جلد ۴ — فقط Mined و تگ‌های DE/آیلتس","",288,1092]],"۳ یونیت در هفته: چهارشنبه‌ی سبک + جمعه‌ی عمیق و تمرینی · ۲۰ کارت جمله‌محور در هر یونیت"],
+["🎧 شنیداری","Tactics → پادکست واقعی",[["Tactics Basic","",1,180],["Tactics Developing","",181,420],["6 Minute English / TED-Ed","",421,720],["NPR / Science Vs + لهجه‌های غیربومی","",721,900],["فقط کمبریج","",901,1092]],"شنبه‌ها با پروتکل سه‌مرحله‌ای + شدوئینگ ۶۰-۹۰ ثانیه · VOA هر روز در جیبی"],
+["🗣️ گفتاری","Speak Now + AI + HelloTalk",[["Speak Now 1","",1,180],["Speak Now 2","",181,280],["تثبیت + مکالمه‌ی آزاد","",281,420],["Speak Now 3","",421,511],["تولید آزاد + مفهوم فنی","",512,720],["نردبان مصاحبه","",721,900],["اسپیکینگ کمبریج","",901,1050]],"یکشنبه‌ها · هر دو نقش ضبط شود · AI voice از روز ۱۶ · HelloTalk از روز ۲۱۲"],
+["📖 خواندن","Inside Reading + News in Levels",[["Intro","",1,180],["Book 1","",181,420],["Book 2","",421,630],["متون فنی و آگهی شغلی","",631,1092]],"چهارشنبه‌ها تایم‌دار + خلاصه‌ی کتاب‌بسته · قانون ۵٪: بیشتر از ۵٪ واژه‌ی ناشناخته = سطح پایین‌تر"],
+["✍️ نوشتن","Inside Writing + تصحیح AI",[["Intro (شروع روز ۴)","",4,180],["Book 1","",181,420],["Book 2","",421,630],["زمان‌دار ۲۵ دقیقه","",631,900],["تسک‌های GT","",901,1050]],"سه‌شنبه‌ها · همیشه با تصحیح AI + ۳ خطای پرتکرار → کارت خطا"],
+["🔤 گرامر","Grammar in Use",[["داگنوستیک Study Guide","",3,3],["Essential (قرمز) — فیلترشده","",10,180],["Intermediate (آبی)","",181,560],["فقط رفع خطا از لاگ","",561,1092]],"دوشنبه‌ها · بعد از هر یونیت ۵ جمله‌ی خودساخته · هر خطا → کارت"],
+["🔊 تلفظ","Tim's Workshop + شدوئینگ",[["سیکل ۱","",1,140],["سیکل ۲","",141,280],["سیکل ۳","",281,420],["تکرار نقاط ضعف","",421,900]],"جمعه‌ها ۲ ویدیو + دریل ضبط · شدوئینگ روزانه روی صدای همان روز"],
+["🎓 آزمون","کمبریج ۱۶-۱۹ + Testino + EF SET",[["— قفل! تا گیت D باز نشود —","فاز ۱–۴ · ماه ۱–۳۰ · روز ۱–۹۰۰",0,0],["Cambridge 16 — کالبدشکافی","",901,942],["Cambridge 17 — رایتینگ","",943,980],["Cambridge 18 — ماک کامل","",981,1008],["Cambridge 19 + دو Testino","",1009,1050],["EF SET رایگان","هر ۳ ماه",61,1092]],"تا گیت D کمبریج/تستینو را باز نکنید · sit-ready: دو ماک متوالی L≥31 R≥30 W 6.5-7.0 S~7"]];
+
+function toNum(s){s=String(s);if(/[۰-۹]/.test(s))s=s.replace(/[۰-۹]/g,c=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(c));return parseInt(s,10)}
+function fa(x){return String(x).replace(/[0-9]/g,c=>'۰۱۲۳۴۵۶۷۸۹'[c])}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+/* ── تقویم شمسی ← میلادی ── */
+function jLeap(y){const b=[1,5,9,13,17,22,26,30];return b.includes(((y-474)%2820+2820)%2820%33)}
+function jDIM(y,m){return m<=6?31:(m<=11?30:(jLeap(y)?30:29))}
+function j2g(jy,jm,jd){
+  let gy=jy>979?1600:621,jy2=jy>979?jy-979:jy;
+  let days=365*jy2+((jy2/33)|0)*8+(((jy2%33)+3)/4|0)+78+jd+(jm<7?(jm-1)*31:((jm-7)*30)+186);
+  gy+=400*((days/146097)|0); days%=146097;
+  if(days>36524){gy+=100*((--days/36524)|0);days%=36524;if(days>=365)days++}
+  gy+=4*((days/1461)|0); days%=1461;
+  if(days>365){gy+=((days-1)/365)|0;days=(days-1)%365}
+  let gd=days+1;
+  const sal=[0,31,(gy%4==0&&gy%100!=0)||gy%400==0?29:28,31,30,31,30,31,31,30,31,30,31];
+  let gm=0; for(gm=1;gm<=12;gm++){if(gd<=sal[gm])break;gd-=sal[gm]}
+  return new Date(gy,gm-1,gd);
+}
+function g2j(dt){
+  const gy=dt.getFullYear(),gm=dt.getMonth()+1,gd=dt.getDate();
+  const gdm=[0,31,59,90,120,151,181,212,243,273,304,334];
+  let gy2=gy-1600,gm2=gm-1,gd2=gd-1;
+  let n=365*gy2+((gy2+3)/4|0)-((gy2+99)/100|0)+((gy2+399)/400|0)+gdm[gm2]+gd2;
+  if(gm2>1&&((gy%4==0&&gy%100!=0)||gy%400==0))n++;
+  n-=79; const np=(n/12053)|0; n%=12053;
+  let jy=979+33*np+4*((n/1461)|0); n%=1461;
+  if(n>=366){jy+=((n-1)/365)|0;n=(n-1)%365}
+  for(let k=0;k<11;k++){const md=k<6?31:30;if(n<md)return[jy,k+1,n+1];n-=md}
+  return[jy,12,n+1];
+}
+
+/* ── ذخیره‌سازی امن ── */
+const Store=(function(){
+  const mem={}; let ok=true;
+  try{localStorage.setItem('__t','1');localStorage.removeItem('__t')}catch(e){ok=false}
+  return{
+    get:function(k){if(ok){try{return localStorage.getItem(k)}catch(e){}}return (k in mem)?mem[k]:null},
+    set:function(k,v){mem[k]=String(v);if(ok){try{localStorage.setItem(k,v)}catch(e){}}},
+    keys:function(p){const out=[];if(ok){try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(!p||k.indexOf(p)===0)out.push(k)}}catch(e){}}for(const k in mem)if((!p||k.indexOf(p)===0)&&out.indexOf(k)<0)out.push(k);return out}
+  };
+})();
+
+/* ── وضعیت تقویم ── */
+let SD=JSON.parse(Store.get('start')||'null')||{y:1405,m:6,d:14};
+let WS=+(Store.get('wstart')||0);
+function startDate(){return j2g(SD.y,SD.m,SD.d)}
+function dateOf(n){const d=new Date(startDate());d.setDate(d.getDate()+n-1);return d}
+function gstr(n){const g=dateOf(n);return g.getDate()+' '+GM[g.getMonth()]+' '+g.getFullYear()}
+function jstr(n){const a=g2j(dateOf(n));return fa(a[2])+' '+FAM[a[1]-1]+' '+fa(a[0])}
+function sameDay(a,b){return a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate()}
+function dowOf(n){const g=dateOf(n);return DOW[(g.getDay()+1+WS)%7]}
+
+let TOFF=+(Store.get('toff')||0);
+function NOW(){return new Date(Date.now()+TOFF)}
+function syncTime(){
+  if(!navigator.onLine)return;
+  const t0=Date.now();
+  fetch('https://worldtimeapi.org/api/timezone/Asia/Tehran',{cache:'no-store'})
+    .then(r=>r.json())
+    .then(j=>{
+      const srv=new Date(j.datetime).getTime();
+      const lat=(Date.now()-t0)/2;
+      const off=srv+lat-Date.now();
+      if(Math.abs(off)>60000){TOFF=off;Store.set('toff',off);checkRollover();renderHeader();syncMsg('✓ تاریخ همگام شد')}
+      else{TOFF=0;Store.set('toff',0)}
+    })
+    .catch(()=>{
+      fetch('https://timeapi.io/api/Time/current/zone?timeZone=Asia/Tehran',{cache:'no-store'})
+        .then(r=>r.json())
+        .then(j=>{
+          const off=new Date(j.dateTime).getTime()-Date.now();
+          if(Math.abs(off)>60000){TOFF=off;Store.set('toff',off);renderHeader()}
+        }).catch(()=>{});
+    });
+}
+function syncMsg(t){const s=document.getElementById('syn');if(s){s.textContent=t;setTimeout(()=>{s.textContent=''},3000)}}
+window.addEventListener('online',syncTime);
+
+function todayNum(){
+  const s=startDate(), n=NOW();
+  const a=new Date(s.getFullYear(),s.getMonth(),s.getDate());
+  const b=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+  return Math.round((b-a)/864e5)+1;
+}
+function dayKey(){const n=NOW();return n.getFullYear()+'-'+(n.getMonth()+1)+'-'+n.getDate()}
+let LASTD=dayKey();
+
+/* ── وضعیت روز فعال ── */
+let i=+(Store.get('day')||0);
+if(!(i>=0&&i<D.length))i=Math.max(0,Math.min(D.length-1,todayNum()-1));
+let curPhase=phOf(i+1)[0];
+function saveState(){Store.set('day',i)}
+
+/* ── آمار خالص از داده ── */
+function phOf(n){return PH.find(p=>n>=p[3]&&n<=p[4])||PH[0]}
+function moOf(n){return Math.min(36,Math.floor((n-1)/30)+1)}
+function done(n){let c=0;const t=D[n-1].it.length;
+  for(let k=0;k<t;k++)if(Store.get('t'+n+'_'+k)==='1')c++;return c}
+function dayFull(n){return done(n)===D[n-1].it.length}
+function rngStat(a,b){let c=0,t=0;
+  for(let n=a;n<=b;n++){if(n>=1&&n<=D.length){t++;if(dayFull(n))c++;}}
+  return {c:c,t:t,full:t>0&&c===t,pc:t?c/t:0};}
+function weekRange(w){return [(w-1)*7+1, Math.min(D.length,w*7)]}
+function monthRange(m){return [(m-1)*30+1, m>=36?D.length:m*30]}
+function weekStat(w){const r=weekRange(w);return rngStat(r[0],r[1])}
+function monthStat(m){const r=monthRange(m);return rngStat(r[0],r[1])}
+function phaseStat(p){const r=rngStat(p[3],p[4]);
+  let c=0,t=0;for(let m=p[7];m<=p[8];m++){t++;if(monthStat(m).full)c++;}
+  return {c:c,t:t,full:r.full,pc:r.pc,days:r};}
+
+/* ── سیستم نماها ── */
+function showView(id){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  const el=document.getElementById(id);
+  if(el){el.classList.add('active');window.scrollTo({top:0,behavior:'smooth'});}
+}
+function showHome(){showView('view-home');}
+function openPhase(pid){
+  const p=PH.find(x=>x[0]===pid)||PH[0];
+  curPhase=p[0]; i=p[3]-1; saveState();
+  buildPhase(pid);
+  showView('view-'+pid);
+  renderHeader();
+}
+
+/* ── ساخت نمای فاز (آکاردئون ماه‌ها) ── */
+function dayBlock(n){
+  const d=D[n-1], w=d.w;
+  const ty=d.t==='off'?'تعطیل':(d.t==='rev'?'تثبیت':(d.t==='long'?'جمعه':'یادگیری'));
+  let h='<h3 id="day-'+n+'" data-n="'+n+'">روز '+fa(n)+' (هفته '+fa(w)+') — '+dowOf(n)+' — نوع: '+ty+'</h3>';
+  if(d.ms)h+='<div class="banner mile">🚩 '+esc(d.ms)+'</div>';
+  if(d.t==='off'){
+    h+='<div class="banner off">🛑 روز تعطیل کامل<span class="bsub">این دستور است، نه پیشنهاد. تثبیت حافظه در استراحت اتفاق می‌افتد.</span></div>';
+    return h;
+  }
+  if(d.t==='rev')h+='<div class="banner rev">🔄 روز تثبیت<span class="bsub">بدون محتوای جدید. فقط مرور و سنجش.</span></div>';
+  if(d.t==='long')h+='<div class="banner mile">🗓 جلسه‌ی بلند جمعه<span class="bsub">واژگان + تلفظ + خواندن گسترده + برنامه‌ی هفته‌ی بعد — همه در یک پنجره.</span></div>';
+  h+='<table><thead><tr><th>#</th><th>دسته</th><th>منبع</th><th>وظیفه</th><th>مدت</th><th>خروجی/معیار موفقیت</th></tr></thead><tbody>';
+  d.it.forEach((it,k)=>{
+    const key='t'+n+'_'+k, on=Store.get(key)==='1';
+    h+='<tr data-k="'+key+'"'+(on?' class="done"':'')+' onclick="toggleTask(this)">'
+      +'<td class="tdchk"><span class="tk">✓</span></td>'
+      +'<td>'+fa(k+1)+'</td><td>'+esc(it[0])+'</td><td>'+esc(it[1])+'</td><td>'+esc(it[2])+'</td>'
+      +'<td>'+esc(it[3])+'</td><td>'+(it[4]?esc(it[4]):'—')+'</td></tr>';
+  });
+  return h+'</tbody></table>';
+}
+/* ── متای هفته: منابع فعال + بار هفتگی (مثل فارکس) ── */
+function weekMeta(first,last){
+  const names=[];
+  RES.forEach(g=>{
+    g[2].forEach(b=>{
+      if(b[2]>0&&b[2]<=last&&b[3]>=first&&names.indexOf(b[0])<0)names.push(b[0]);
+    });
+  });
+  let mins=0;
+  for(let n=first;n<=last;n++)D[n-1].it.forEach(it=>{
+    const m=String(it[3]).match(/[۰-۹0-9]+/);
+    if(m)mins+=toNum(m[0]);
+  });
+  const h=Math.floor(mins/60), mm=mins%60;
+  let load=(h?fa(h)+' ساعت ':'')+(mm?fa(mm)+' دقیقه':'');
+  if(!load)load='۰ دقیقه';
+  return {names:names, load:load};
+}
+function buildMonthBody(m){
+  const r=monthRange(m), groups={};
+  for(let n=r[0];n<=r[1];n++){const w=D[n-1].w;(groups[w]=groups[w]||[]).push(n)}
+  let h='';
+  Object.keys(groups).forEach(w=>{
+    const days=groups[w], first=days[0], last=days[days.length-1];
+    const meta=weekMeta(first,last);
+    h+='<h2 id="wk-'+m+'-'+w+'">هفته '+fa(w)+' (ماه '+fa(m)+') — روز '+fa(first)+' تا '+fa(last)+'</h2>';
+    h+='<blockquote><strong>منابع فعال این هفته:</strong> '+(meta.names.length?meta.names.join(' · '):'—')
+      +' · <strong>بار هفتگی:</strong> '+meta.load+'</blockquote>';
+    days.forEach(n=>{h+=dayBlock(n)});
+  });
+  return h;
+}
+/* ── منابع فعال هر فاز (مثل «منابع اصلی فاز» در نقشه راه فارکس) ── */
+function phaseRes(pid){
+  const p=PH.find(x=>x[0]===pid)||PH[0];
+  const parts=[];
+  RES.forEach(g=>{
+    const books=g[2].filter(b=>b[2]>0&&b[2]<=p[4]&&b[3]>=p[3]).map(b=>b[0]);
+    if(books.length)parts.push(g[1]+' — '+books.join('، '));
+  });
+  return parts.length?parts:['—'];
+}
+function buildPhase(pid){
+  const v=document.getElementById('view-'+pid);
+  if(!v||v.dataset.built==='1')return;
+  const p=PH.find(x=>x[0]===pid)||PH[0];
+  const lo=p[7], hi=p[8];
+  let h='<div class="phase-top">'
+      +'<button class="btn ghost" onclick="showHome()">→ بازگشت به فهرست فازها</button>'
+      +'<div class="phase-title">فاز '+p[0]+' — '+p[1]+'</div>'
+      +'<div class="phase-range">روز '+fa(p[3])+' تا '+fa(p[4])+' · ماه '+fa(lo)+' تا '+fa(hi)
+      +' · هفته '+fa(p[5])+' تا '+fa(p[6])+' · سطح '+p[2]+'</div></div>';
+  h+='<div class="monthbar">'
+     +'<span class="monthbar-tip">💡 برای باز/بسته کردن ماه‌ها روی عنوان هر ماه کلیک کنید</span>'
+     +'<button class="btn ghost small" onclick="setAllMonths(\''+pid+'\',true)">➕ همه باز</button>'
+     +'<button class="btn ghost small" onclick="setAllMonths(\''+pid+'\',false)">➖ همه بسته</button></div>';
+  h+='<div class="phase-intro"><h1 class="doc-title">فاز '+p[0]+' — '+p[1]+' (روزهای '+fa(p[3])+' تا '+fa(p[4])+')</h1>'
+     +'<p><strong>سطح هدف:</strong> '+p[2]+' | <strong>بازه:</strong> ماه '+fa(lo)+' تا '+fa(hi)
+     +' | <strong>'+fa(p[6]-p[5]+1)+' هفته / '+fa(p[4]-p[3]+1)+' روز</strong></p>'
+     +'<p><strong>منابع اصلی فاز:</strong> '+phaseRes(p[0]).join(' · ')+'</p>'+(PHDOC[p[0]]?'<p><strong>معیار خروج فاز:</strong> '+PHDOC[p[0]]+'</p>':'')+'<hr></div>';
+  for(let m=lo;m<=hi;m++){
+    const idx=m-lo;
+    h+='<div class="accordion" id="'+pid+'-acc-'+idx+'">'
+      +'<button class="acc-head" onclick="toggleMonth(\''+pid+'\','+idx+')">'
+      +'<span class="acc-arrow">▸</span><span class="acc-label">ماه '+fa(m)+'</span>'
+      +'<span class="acc-state">بسته</span></button>'
+      +'<div class="acc-body">'+buildMonthBody(m)+'</div></div>';
+  }
+  h+='<div class="phase-bottom"><button class="btn ghost" onclick="showHome()">→ بازگشت به فهرست فازها</button></div>';
+  v.innerHTML=h;
+  v.dataset.built='1';
+  refreshCascade();
+}
+
+/* ── آکاردئون ── */
+function setAccState(acc){
+  const st=acc.querySelector('.acc-state');
+  if(st)st.textContent=acc.classList.contains('open')?'باز':'بسته';
+}
+function toggleMonth(pid,idx){
+  const acc=document.getElementById(pid+'-acc-'+idx);
+  if(!acc)return;
+  acc.classList.toggle('open');
+  setAccState(acc);
+}
+function setAllMonths(pid,on){
+  for(let m=0;m<12;m++){
+    const acc=document.getElementById(pid+'-acc-'+m);
+    if(!acc)continue;
+    acc.classList.toggle('open',on);
+    setAccState(acc);
+  }
+}
+function openAccordion(pid,idx){
+  document.querySelectorAll('[id^="'+pid+'-acc-"]').forEach(p=>{
+    p.classList.remove('open');setAccState(p);
+  });
+  const acc=document.getElementById(pid+'-acc-'+idx);
+  if(acc){acc.classList.add('open');setAccState(acc);}
+}
+
+/* ── تیک‌زدن وظایف ── */
+function dayRowsOf(h3){
+  let tb=h3.nextElementSibling;
+  while(tb&&tb.tagName!=='TABLE')tb=tb.nextElementSibling;
+  return tb?tb.querySelectorAll('tr[data-k]'):null;
+}
+function h3State(h3){
+  const rows=dayRowsOf(h3);
+  if(!rows)return{done:true,c:0,t:0};          // روز تعطیل = کامل
+  let c=0;rows.forEach(r=>{if(r.classList.contains('done'))c++});
+  return{done:c===rows.length,c:c,t:rows.length};
+}
+function updateDayH3(h3){
+  const s=h3State(h3);
+  h3.classList.toggle('daydone',s.done&&s.t>0);
+  h3.classList.toggle('daypart',!s.done&&s.c>0);
+}
+function toggleTask(tr){
+  const key=tr.dataset.k;
+  const on=Store.get(key)==='1';
+  Store.set(key,on?'0':'1');
+  tr.classList.toggle('done',!on);
+  let e=tr.closest('table').previousElementSibling;
+  while(e&&e.tagName!=='H3')e=e.previousElementSibling;
+  if(e)updateDayH3(e);
+  refreshCascade();
+  stats();
+}
+
+/* ── آبشار هایلایت: روز ← هفته ← ماه ← فاز ── */
+function refreshCascade(){
+  PH.forEach(p=>{
+    for(let m=p[7];m<=p[8];m++){
+      const acc=document.getElementById(p[0]+'-acc-'+(m-p[7]));
+      if(!acc)continue;
+      const body=acc.querySelector('.acc-body');
+      let curH2=null, days=[], sections=[];
+      [...body.children].forEach(ch=>{
+        if(ch.tagName==='H2'){if(curH2)sections.push({h2:curH2,days:days});curH2=ch;days=[];}
+        else if(ch.tagName==='H3')days.push(ch);
+      });
+      if(curH2)sections.push({h2:curH2,days:days});
+      let secDone=0;
+      sections.forEach(sec=>{
+        let all=sec.days.length>0;
+        sec.days.forEach(h=>{updateDayH3(h);if(!hStateDone(h))all=false;});
+        sec.h2.classList.toggle('weekdone',all);
+        if(all)secDone++;
+      });
+      const md=sections.length>0&&secDone===sections.length;
+      acc.classList.toggle('monthdone',md);
+    }
+  });
+  updateHomeCards();
+}
+function hStateDone(h){
+  const rows=dayRowsOf(h);
+  if(!rows)return true;
+  let c=0;rows.forEach(r=>{if(r.classList.contains('done'))c++});
+  return c===rows.length;
+}
+function updateHomeCards(){
+  PH.forEach(p=>{
+    const c=document.querySelector('.pcard[data-p="'+p[0]+'"]');
+    if(!c)return;
+    const ps=phaseStat(p), pc=Math.round(ps.pc*100);
+    c.classList.toggle('done',ps.full);
+    c.classList.toggle('cur',p[0]===curPhase);
+    const bar=c.querySelector('.pbar i');
+    if(bar)bar.style.width=pc+'%';
+    const foot=c.querySelector('.pcard-foot');
+    const left='<span>'+fa(ps.days.c)+' از '+fa(ps.days.t)+' روز · '+fa(pc)+'٪</span>';
+    if(ps.full)foot.innerHTML=left+'<span class="pcard-ok">✓ کامل</span>';
+    else if(p[0]===curPhase)foot.innerHTML=left+'<span class="pcard-cur">● فاز فعلی</span>';
+    else foot.innerHTML=left+'<span></span>';
+  });
+}
+
+/* ── آمار ── */
+function stats(){
+  let total=0;D.forEach(d=>{total+=d.it.length});
+  let n=0;Store.keys('t').forEach(k=>{if(Store.get(k)==='1')n++});
+  st.textContent='فاز '+PN[curPhase]+' · ✅ '+fa(n)+'/'+fa(total);
+}
+
+/* ── هدر ── */
+function renderHeader(){
+  const n=i+1;
+  const gdt=dateOf(n), jd=g2j(gdt);
+  const isT=(n===todayNum());
+  const p=phOf(n), mo=moOf(n);
+  dn.innerHTML='روز '+fa(n);
+  let l2='فاز '+PN[p[0]]+' · '+p[1]+' · '+p[2];
+  if(!isT)l2+=' · امروز: '+jstr(todayNum());
+  dm.innerHTML='<div class="cal'+(isT?' today':'')+'">'
+    +(isT?'<span class="tdb">امروز</span>':'')
+    +'<span class="cd">'+fa(jd[2])+'</span>'
+    +'<span class="cx"><span><span class="cm">'+FAM[jd[1]-1]+'</span>'
+    +'<span class="cw">'+dowOf(n)+'</span></span>'
+    +'<span class="cy">'+fa(jd[0])+'</span>'
+    +'<span class="cg">'+gstr(n)+'</span></span></div>'
+    +'<span class="l2">'+l2+'</span>';
+  bph.innerHTML='<span class="pv">فاز '+PN[p[0]]+'</span><span class="ar">▾</span>';
+  bmo.innerHTML='<span class="pv">ماه '+fa(mo)+'</span><span class="ar">▾</span>';
+  bwk.innerHTML='<span class="pv">هفته '+fa(D[n-1].w)+'</span><span class="ar">▾</span>';
+  bday.innerHTML='<span class="pv">روز '+fa(n)+'</span><span class="ar">▾</span>';
+  const pcv=n/D.length*100;
+  pb.style.width=pcv+'%';
+  ppc.textContent=fa(pcv.toFixed(1))+'٪';
+}
+
+/* ── ناوبری نقشه راه ── */
+function gotoDay(n){
+  n=Math.max(1,Math.min(D.length,n));
+  const p=phOf(n);
+  curPhase=p[0]; i=n-1; saveState();
+  buildPhase(p[0]);
+  showView('view-'+p[0]);
+  openAccordion(p[0], moOf(n)-p[7]);
+  renderHeader();
+  setTimeout(()=>{const el=document.getElementById('day-'+n);
+    if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},150);
+}
+function gotoMonth(pid,m){
+  const p=PH.find(x=>x[0]===pid)||PH[0];
+  curPhase=pid; i=monthRange(m)[0]-1; saveState();
+  buildPhase(pid);
+  showView('view-'+pid);
+  openAccordion(pid,m-p[7]);
+  renderHeader();
+  if(dMo.open)dMo.close();
+  setTimeout(()=>{const acc=document.getElementById(pid+'-acc-'+(m-p[7]));
+    if(acc)acc.scrollIntoView({behavior:'smooth',block:'start'});},150);
+}
+function gotoWeek(pid,m,w){
+  const r=monthRange(m); let first=null;
+  for(let n=r[0];n<=r[1];n++){if(D[n-1].w===w){first=n;break;}}
+  if(first===null)return;
+  const p=PH.find(x=>x[0]===pid)||PH[0];
+  curPhase=pid; i=first-1; saveState();
+  buildPhase(pid);
+  showView('view-'+pid);
+  openAccordion(pid,m-p[7]);
+  renderHeader();
+  if(dWk.open)dWk.close();
+  setTimeout(()=>{const el=document.getElementById('wk-'+m+'-'+w);
+    if(el)el.scrollIntoView({behavior:'smooth',block:'start'});},150);
+}
+function goToday(){
+  const t=todayNum();
+  if(t<1){alert('تاریخ شروع شما هنوز نرسیده است.\nروز ۱: '+jstr(1));gotoDay(1)}
+  else if(t>D.length){alert('مسیر ۱۰۹۲ روزه تمام شده است 🏆');gotoDay(D.length)}
+  else gotoDay(t);
+}
+function jump(){
+  const v=+ji.value;
+  if(v>=1&&v<=D.length){gotoDay(v);ji.value='';}
+}
+
+/* ── دیالوگ‌های انتخاب ── */
+function pickPh(){dPh.showModal();fillPh()}
+function pickMo(){dMo.showModal();fillMo()}
+function pickWk(){dWk.showModal();fillWk()}
+function pickDay(){dDay.showModal();fillDay()}
+
+function fillPh(){
+  const cur=phOf(i+1)[0];
+  let h='<div class="fhead" style="border-style:dashed"><span>روی هر فاز بزنید تا ماه‌هایش باز شود</span>'
+      +'<button class="bk" onclick="openPhase(curPhase);dPh.close()">برو به اول فاز فعلی</button></div>';
+  PH.forEach(p=>{
+    const ps=phaseStat(p), pc=Math.round(ps.pc*100);
+    h+='<div class="prow'+(p[0]===cur?' cur':'')+(ps.full?' full':'')
+      +'" onclick="openPhase(\''+p[0]+'\');dPh.close()">'
+      +'<div class="pid">'+PN[p[0]]+'</div><div style="flex:1;min-width:0">'
+      +'<div class="pnm">'+p[1]+(ps.full?' ✓':'')+'</div>'
+      +'<div class="psub">ماه '+fa(p[7])+'–'+fa(p[8])+' · روز '+fa(p[3])+'–'+fa(p[4])+' · سطح '+p[2]+'</div>'
+      +'<div class="pbar"><i style="width:'+pc+'%"></i></div>'
+      +'<div class="psub">'+fa(ps.days.c)+' از '+fa(ps.days.t)+' روز کامل ('+fa(pc)+'٪)</div></div></div>';
+  });
+  dcPh.innerHTML=h;
+}
+function fillMo(){
+  const p=PH.find(x=>x[0]===curPhase)||PH[0];
+  let h='<div class="fhead"><span>🔍 ماه‌های فاز '+PN[p[0]]+' — '+p[1]+'</span></div><div class="grid">';
+  for(let m=p[7];m<=p[8];m++){
+    const r=monthRange(m), st=monthStat(m), pc=Math.round(st.pc*100);
+    const cur=(i+1)>=r[0]&&(i+1)<=r[1];
+    h+='<button class="gi'+(cur?' cur':'')+(st.full?' full':'')
+      +'" onclick="gotoMonth(\''+p[0]+'\','+m+')">'
+      +'<b>ماه '+fa(m)+'</b><span>روز '+fa(r[0])+'–'+fa(r[1])+'</span>'
+      +'<div class="gb"><i style="width:'+pc+'%"></i></div></button>';
+  }
+  h+='</div>';
+  dcMo.innerHTML=h;
+}
+function fillWk(){
+  const p=PH.find(x=>x[0]===curPhase)||PH[0];
+  const m=moOf(i+1), r=monthRange(m);
+  const groups={};
+  for(let n=r[0];n<=r[1];n++){const w=D[n-1].w;(groups[w]=groups[w]||[]).push(n)}
+  let h='<div class="fhead"><span>🔍 هفته‌های ماه '+fa(m)+' · فاز '+PN[p[0]]+'</span></div><div class="grid">';
+  Object.keys(groups).forEach(w=>{
+    const days=groups[w], first=days[0], last=days[days.length-1];
+    const st=rngStat(first,last), pc=Math.round(st.pc*100);
+    const cur=(i+1)>=first&&(i+1)<=last;
+    h+='<button class="gi'+(cur?' cur':'')+(st.full?' full':'')
+      +'" onclick="gotoWeek(\''+p[0]+'\','+m+','+w+')">'
+      +'<b>هفته '+fa(w)+'</b><span>روز '+fa(first)+'–'+fa(last)+'</span>'
+      +'<div class="gb"><i style="width:'+pc+'%"></i></div></button>';
+  });
+  h+='</div>';
+  dcWk.innerHTML=h;
+}
+function fillDay(){
+  const w=D[i].w, r=weekRange(w);
+  const p=PH.find(x=>x[0]===curPhase)||PH[0];
+  let h='<div class="fhead"><span>🔍 روزهای هفته '+fa(w)+' · فاز '+PN[p[0]]+'</span></div><div class="grid">';
+  for(let n=r[0];n<=r[1];n++){
+    const d=D[n-1];
+    const ty=d.t==='off'?'تعطیل':(d.t==='rev'?'تثبیت':(d.t==='long'?'جمعه':'یادگیری'));
+    const cur=(n===i+1);
+    h+='<button class="gi'+(cur?' cur':'')
+      +'" onclick="gotoDay('+n+');dDay.close()">'
+      +'<b>روز '+fa(n)+'</b><span>'+dowOf(n)+'</span><small>'+ty+'</small></button>';
+  }
+  h+='</div>';
+  dcDay.innerHTML=h;
+}
+
+/* ── بستن دیالوگ با کلیک روی پس‌زمینه ── */
+[dPh,dMo,dWk,dDay,dSet,dExp,dImp,dSum].forEach(d=>{
+  d.addEventListener('click',e=>{if(e.target===d)d.close()});
+});
+
+/* ── تنظیمات ── */
+for(let y=1404;y<=1412;y++)sY.add(new Option(fa(y),y));
+for(let m=1;m<=12;m++)sM.add(new Option(FAM[m-1],m));
+function fillDays(){const n=jDIM(+sY.value,+sM.value),k=+sD.value||SD.d;
+  sD.innerHTML='';for(let d=1;d<=n;d++)sD.add(new Option(fa(d),d));
+  sD.value=Math.min(k,n)}
+sY.onchange=sM.onchange=fillDays;
+function openSet(){sY.value=SD.y;sM.value=SD.m;fillDays();sD.value=SD.d;sW.value=WS;dSet.showModal()}
+function setStartToday(){const a=g2j(new Date());sY.value=a[0];sM.value=a[1];fillDays();sD.value=a[2];}
+function saveSet(){
+  SD={y:+sY.value,m:+sM.value,d:+sD.value};WS=+sW.value;
+  Store.set('start',JSON.stringify(SD));
+  Store.set('wstart',WS);
+  const t=todayNum();
+  if(t>=1&&t<=D.length){i=t-1;curPhase=phOf(t)[0];}
+  LASTD=dayKey(); Store.set('lastopen',LASTD);
+  dSet.close();
+  rebuildVisible();
+  renderHeader(); updateHomeCards(); stats();
+  alert('✅ تقویم بازمحاسبه شد.\nروز ۱: '+jstr(1)+' ('+dowOf(1)+')'
+        +(t>=1&&t<=D.length?'\nامروز = روز '+t:''));
+}
+function rebuildVisible(){
+  const v=document.querySelector('.view.active');
+  if(v&&v.id.indexOf('view-F')===0){
+    v.dataset.built='0';v.innerHTML='';
+    buildPhase(v.id.slice(5));
+  }
+}
+function clearChecks(){
+  if(!confirm('همه تیک‌ها پاک شود؟'))return;
+  Store.keys('t').forEach(k=>Store.set(k,'0'));
+  document.querySelectorAll('.acc-body tr[data-k]').forEach(r=>r.classList.remove('done'));
+  refreshCascade(); stats();
+  syncMsg('🗑 تیک‌ها پاک شد');
+}
+
+/* ── صفحات منابع و راهنماها (مثل صفحات فارکس) ── */
+function gotoView(id){showView(id);}
+function phTag(d){for(var i=0;i<PH.length;i++){if(d>=PH[i][3]&&d<=PH[i][4])return PN[PH[i][0]]}return '?'}
+var SUM=[
+['📕 کتاب‌های فعال (هسته)',[
+['Tactics for Listening — Basic → Developing','هسته‌ی شنیداری + شدوئینگ',1,420],
+['Speak Now ۱ → ۳','هسته‌ی گفتاری — هر دو نقش ضبط',1,511],
+['Inside Reading — Intro → ۲','هسته‌ی خواندن + خلاصه‌ی کتاب‌بسته',1,630],
+['Inside Writing — Intro → ۲','هسته‌ی نوشتن + تصحیح AI',4,630],
+['Essential Grammar in Use (قرمز) — فیلترشده','گرامر فاز ۱ با تست Study Guide',3,180],
+['Intermediate Grammar in Use (آبی)','گرامر فاز ۲–۳',181,560],
+['4000 Essential English Words ۱–۴','واژگان → کارت‌های Anki',1,287],
+['Cambridge IELTS ۱۶–۱۹ (ماژول GT)','فاز آیلتس: ۱۶ کالبدشکافی ← ۱۹ ماک نهایی',901,1050]]],
+['🎧 پادکست‌ها و شنیداری سبک',[
+['VOA Learning English','شنیداری جیبی هر روز + ۳ جمله خلاصه',1,420],
+['BBC 6 Minute English','چرخش فاز ۳ — همیشه با متن',421,720],
+['TED-Ed','چرخش فاز ۳ — سخنرانی‌های کوتاه',421,720],
+['NPR Short Wave / Science Vs','لهجه‌های متنوع فاز ۴',721,900]]],
+['🔧 ابزارها و اپ‌ها',[
+['Anki + AnkiDroid','موتور مرور — هر روز، حتی روز حداقلی',1,1092],
+['AI متنی (Copilot / Gemini)','تصحیح رایتینگ + کارت خطا',4,1092],
+['AI صوتی (Copilot Voice / Gemini Live)','هم‌صحبت ۱۰ دقیقه‌ای روزانه',16,1092],
+['HelloTalk / Tandem','مکالمه‌ی انسانی رایگان',212,1092],
+["Tim's Pronunciation Workshop (BBC)",'تلفظ و گفتار متصل',1,420],
+['News in Levels','خواندن گسترده‌ی سطح‌بندی‌شده',8,720],
+['Testino','فقط ۲ شبیه‌ساز نمره‌ده',1015,1036],
+['EF SET','لنگر سطح خارجی — هر ۳ ماه',61,1092],
+['IELTS Liz + دسکریپتورهای رسمی','مرجع روش فاز ۵',901,1050]]],
+['🗄 انبار — دارید ولی غیرفعال',[
+['Inside Reading ۳ و ۴','فراتر از هدف B2+'],
+['Inside Writing ۳ و ۴','رایتینگ GT در کمبریج پوشش داده می‌شود'],
+['Speak Now ۴','اختیاری در B1+'],
+['Inside Speaking & Listening','حذف کامل — تکراری با Tactics + Speak Now'],
+['Cambridge IELTS ۱–۱۵','قدیمی — ۱۶–۱۹ GT کافی است'],
+['All Ears English','تا رسیدن به B1 قفل'],
+['Miss Honey: Slow English','فقط چرخش برای تنوع'],
+['English Toolbox','خارج از استک — مشخص نیست چیست']]]
+];
+function openSum(){
+var h='<div class="card2">🔒 <b>قانون استک:</b> یک هسته + یک مکمل به ازای هر مهارت — همین. منبع جدید فقط در ممیزی فصلی و با «یکی‌داخل، یکی‌خارج».</div>';
+SUM.forEach(function(c){h+='<div class="sec"><div class="sech">'+c[0]+' — '+fa(c[1].length)+' قلم</div>';
+c[1].forEach(function(r){h+='<div class="rc"><div class="rt">'+r[0]+'</div><div class="rs">'+r[1]+(r.length>2?' · <b>'+spanTxt(r[2],r[3])+'</b>':'')+'</div></div>'});h+='</div>'});
+dcSum.innerHTML=h;dSum.showModal()}
+function spanTxt(a,b){var p1=phTag(a),p2=phTag(b),m1=Math.min(36,Math.ceil(a/30)),m2=Math.min(36,Math.ceil(b/30));return 'فاز '+(p1===p2?p1:p1+'–'+p2)+' · ماه '+(m1===m2?fa(m1):fa(m1)+'–'+fa(m2))+' · روز '+(a===b?fa(a):fa(a)+'–'+fa(b))}
+
+function gotoRes(){
+  const t=todayNum();
+  const n=(t<1)?1:((t>D.length)?D.length:t);
+  let h='<div class="card2">🔒 <b>استک حداقلی:</b> در هر لحظه حداکثر ۹ منبع فعال — یک هسته + یک مکمل برای هر مهارت. '
+      +'بقیه در انبار می‌مانند. سبز = الان فعال است.</div>';
+  h+='<div class="note">📌 وضعیت «الان فعال» بر اساس روز امروز (روز '+fa(n)+') محاسبه شده است.</div>';
+  RES.forEach(g=>{
+    h+='<div class="sec"><div class="sech">'+g[0]+' — '+g[1]+'</div>';
+    g[2].forEach(b=>{
+      const on=b[2]>0&&n>=b[2]&&n<=b[3];
+      h+='<div class="rc'+(on?'':' store')+'"><div class="rt">'+b[0]+'</div>'
+        +'<div class="rs">'+(b[2]>0?spanTxt(b[2],b[3])+(b[1]?' — '+b[1]:''):b[1])+'</div>'
+        +(on?'<span class="rw">✅ الان فعال</span>':'')+'</div>';
+    });
+    h+='<div class="rs" style="padding:2px 4px 0">💡 '+g[3]+'</div></div>';
+  });
+  document.getElementById('dcResView').innerHTML=h;
+  showView('view-resources');
+}
+
+/* ── نقاط عطف ── */
+(function(){
+  let ms='';
+  D.forEach(d=>{
+    if(d.ms)ms+='<div class="mrow" onclick="gotoDay('+d.n+')"><b>روز '+fa(d.n)+'</b>'
+      +'<span style="text-align:right;flex:1;padding-right:10px">'+esc(d.ms)+'</span></div>';
+  });
+  document.getElementById('milelist').innerHTML=ms;
+})();
+
+/* ── تب‌های صفحه راهنمای Anki ── */
+(function(){
+  const panes=[...document.querySelectorAll('#view-anki .apane')];
+  const tb=document.getElementById('atab');
+  panes.forEach((p,k)=>{
+    const b=document.createElement('button');
+    b.textContent=p.dataset.t;
+    b.onclick=()=>{
+      panes.forEach((q,j)=>q.classList.toggle('on',j===k));
+      [...tb.children].forEach((c,j)=>c.classList.toggle('on',j===k));
+      document.getElementById('view-anki').scrollIntoView({block:'start'});
+    };
+    tb.appendChild(b);
+  });
+  if(panes.length){panes[0].classList.add('on');tb.children[0].classList.add('on')}
+})();
+
+/* ── تب‌های صفحه شدوئینگ و مونولوگ ── */
+(function(){
+  const panes=[...document.querySelectorAll('#view-speak .spane')];
+  const tb=document.getElementById('stab');
+  panes.forEach((p,k)=>{
+    const b=document.createElement('button');
+    b.textContent=p.dataset.s;
+    b.onclick=()=>{
+      panes.forEach((q,j)=>q.classList.toggle('on',j===k));
+      [...tb.children].forEach((c,j)=>c.classList.toggle('on',j===k));
+      document.getElementById('view-speak').scrollIntoView({block:'start'});
+    };
+    tb.appendChild(b);
+  });
+  if(panes.length){panes[0].classList.add('on');tb.children[0].classList.add('on')}
+})();
+
+/* ── تب‌های صفحه نکات کلیدی ── */
+(function(){
+  const panes=[...document.querySelectorAll('#view-keys .kpane')];
+  const tb=document.getElementById('ktab');
+  panes.forEach((p,k)=>{
+    const b=document.createElement('button');
+    b.textContent=p.dataset.k;
+    b.onclick=()=>{
+      panes.forEach((q,j)=>q.classList.toggle('on',j===k));
+      [...tb.children].forEach((c,j)=>c.classList.toggle('on',j===k));
+      document.getElementById('view-keys').scrollIntoView({block:'start'});
+    };
+    tb.appendChild(b);
+  });
+  if(panes.length){panes[0].classList.add('on');tb.children[0].classList.add('on')}
+})();
+
+/* ── بکاپ ── */
+function lsKeys(){
+  try{
+    const out=[];
+    for(let k=0;k<localStorage.length;k++)out.push(localStorage.key(k));
+    return out;
+  }catch(e){return Store.keys('')}
+}
+function mkBackup(){
+  const o={v:1,app:'daily_plan',date:new Date().toISOString(),data:{}};
+  lsKeys().forEach(k=>{o.data[k]=Store.get(k)});
+  return o;
+}
+function cntItems(d){
+  let c=0; for(const k in d)if(k[0]==='t'&&d[k]==='1')c++;
+  return c;
+}
+function openExp(){
+  const b=mkBackup(), s=JSON.stringify(b,null,1);
+  expTA.value=s;
+  const kb=(new Blob([s]).size/1024).toFixed(1);
+  expInfo.textContent='تیک‌های ثبت‌شده: '+fa(cntItems(b.data))+'  ·  حجم: '+fa(kb)+' کیلوبایت';
+  expMsg.innerHTML='';
+  dExp.showModal();
+}
+function copyBk(){
+  const t=expTA.value;
+  const ok=()=>{expMsg.innerHTML='<div class="bkok">✅ کپی شد — حالا در یک فایل EN-backup.json بچسبانید</div>';};
+  const no=()=>{expMsg.innerHTML='<div class="bkerr">کپی خودکار نشد — روی کادر بزنید و دستی کپی کنید</div>';};
+  if(navigator.clipboard&&window.isSecureContext){
+    navigator.clipboard.writeText(t).then(ok).catch(()=>{fallbackCopy(t,ok,no)});
+  }else fallbackCopy(t,ok,no);
+}
+function fallbackCopy(t,ok,no){
+  try{
+    expTA.removeAttribute('readonly');
+    expTA.select(); expTA.setSelectionRange(0,999999);
+    const r=document.execCommand('copy');
+    expTA.setAttribute('readonly','');
+    r?ok():no();
+  }catch(e){no()}
+}
+function dlBk(){
+  try{
+    const s=expTA.value;
+    const bl=new Blob([s],{type:'application/json'});
+    const u=URL.createObjectURL(bl);
+    const a=document.createElement('a');
+    const d=new Date(), pad=x=>String(x).padStart(2,'0');
+    a.href=u; a.download='EN-backup-'+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+'.json';
+    document.body.appendChild(a); a.click();
+    setTimeout(()=>{document.body.removeChild(a);URL.revokeObjectURL(u)},1500);
+    expMsg.innerHTML='<div class="bkok">✅ دانلود شروع شد — پوشه Download را ببینید</div>';
+  }catch(e){
+    expMsg.innerHTML='<div class="bkerr">دانلود ممکن نشد — از «کپی بکاپ» استفاده کنید</div>';
+  }
+}
+function openImp(){ impTA.value=''; impMsg.innerHTML=''; dImp.showModal(); }
+function doImp(txt){
+  if(!txt||!txt.trim()){
+    impMsg.innerHTML='<div class="bkerr">کادر خالی است</div>'; return;
+  }
+  let o;
+  try{ o=JSON.parse(txt.trim()); }
+  catch(e){
+    impMsg.innerHTML='<div class="bkerr">فایل معتبر نیست — متن کامل را بچسبانید</div>';
+    return;
+  }
+  const d=o&&o.data?o.data:o;
+  if(!d||typeof d!=='object'){
+    impMsg.innerHTML='<div class="bkerr">ساختار بکاپ شناخته نشد</div>'; return;
+  }
+  const n=cntItems(d);
+  if(!confirm('بکاپ وارد شود؟\n\nتیک‌های ثبت‌شده در بکاپ: '+n+
+              '\n\n⚠️ اطلاعات فعلی جایگزین می‌شود.')) return;
+  try{
+    const keys=lsKeys();
+    keys.forEach(k=>{try{localStorage.removeItem(k)}catch(e){}});
+    for(const k in d)Store.set(k,d[k]);
+    SD=JSON.parse(Store.get('start')||'null')||{y:1405,m:6,d:14};
+    WS=+(Store.get('wstart')||0);
+    TOFF=+(Store.get('toff')||0);
+    i=+(Store.get('day')||0);
+    if(!(i>=0&&i<D.length))i=Math.max(0,Math.min(D.length-1,todayNum()-1));
+    curPhase=phOf(i+1)[0];
+    rebuildVisible();
+    renderHeader(); updateHomeCards(); refreshCascade(); stats();
+    impMsg.innerHTML='<div class="bkok">✅ بکاپ وارد شد ('+fa(n)+' مورد)</div>';
+    setTimeout(()=>dImp.close(),1800);
+  }catch(e){
+    impMsg.innerHTML='<div class="bkerr">خطا در بازیابی: '+e.message+'</div>';
+  }
+}
+document.getElementById('impFile').addEventListener('change',function(ev){
+  const f=ev.target.files&&ev.target.files[0];
+  if(!f)return;
+  const r=new FileReader();
+  r.onload=e=>{ impTA.value=e.target.result; doImp(e.target.result); };
+  r.onerror=()=>{impMsg.innerHTML='<div class="bkerr">فایل خوانده نشد</div>'};
+  r.readAsText(f);
+  ev.target.value='';
+});
+
+/* ── گذر از نیمه‌شب ── */
+function checkRollover(){
+  const k=dayKey();
+  if(LASTD&&k!==LASTD){
+    LASTD=k;
+    const t=todayNum();
+    if(t>=1&&t<=D.length){i=t-1;curPhase=phOf(t)[0];saveState();}
+    renderHeader(); updateHomeCards();
+    return;
+  }
+  LASTD=k;
+}
+
+/* ── شروع ── */
+renderHeader();
+updateHomeCards();
+stats();
+setTimeout(()=>{
+  const t=todayNum();
+  const lastOpen=Store.get('lastopen');
+  const k=dayKey();
+  if(t>=1&&t<=D.length&&lastOpen!==k){
+    i=t-1; curPhase=phOf(t)[0]; saveState();
+    renderHeader(); updateHomeCards();
+  }
+  Store.set('lastopen',k);
+  LASTD=k;
+},0);
+setInterval(checkRollover,30000);
+document.addEventListener('visibilitychange',()=>{
+  if(!document.hidden){checkRollover(); if(navigator.onLine)syncTime();}
+});
+setTimeout(syncTime,1200);
+setInterval(()=>{if(navigator.onLine)syncTime()},6*3600*1000);
+
+/* ── دکمه بازگشت به بالا ── */
+(function(){
+  const tt=document.getElementById('totop');
+  if(tt){
+    window.addEventListener('scroll',()=>{
+      tt.classList.toggle('show',window.scrollY>500);
+    },{passive:true});
+  }
+})();
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3356464ce102a57',t:'MTc4ODEwOTY1MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
